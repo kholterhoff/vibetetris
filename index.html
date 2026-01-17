@@ -9,7 +9,33 @@
 <body>
     <div class="stars-background"></div>
 
-    <div class="game-container">
+    <!-- Mascot Selection Screen -->
+    <div class="mascot-selection-screen" id="mascotSelection">
+        <h1 class="selection-title">🌟 Choose Your Adventure Buddy! 🌟</h1>
+        <div class="mascot-choices">
+            <div class="mascot-choice" data-mascot="lion">
+                <div class="mascot-character">🦁👔</div>
+                <div class="mascot-name">Leo the Lion</div>
+                <div class="mascot-outfit">Wearing a Fancy Tie!</div>
+                <button class="select-button">Pick Me!</button>
+            </div>
+            <div class="mascot-choice" data-mascot="panda">
+                <div class="mascot-character">🐼🎩</div>
+                <div class="mascot-name">Penny the Panda</div>
+                <div class="mascot-outfit">Wearing a Top Hat!</div>
+                <button class="select-button">Pick Me!</button>
+            </div>
+            <div class="mascot-choice" data-mascot="fox">
+                <div class="mascot-character">🦊🎓</div>
+                <div class="mascot-name">Freddy the Fox</div>
+                <div class="mascot-outfit">Wearing a Graduation Cap!</div>
+                <button class="select-button">Pick Me!</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Game Container -->
+    <div class="game-container" id="gameContainer" style="display: none;">
         <div class="header">
             <h1>🌟 ANIMAL VOCAB ADVENTURE! 🌟</h1>
             <div class="stats">
@@ -31,7 +57,7 @@
         </div>
 
         <div class="mascot-container">
-            <div class="mascot" id="mascot">🦁</div>
+            <div class="mascot" id="mascot">🦁👔</div>
             <div class="speech-bubble" id="speechBubble">Let's learn some words!</div>
         </div>
 
@@ -39,6 +65,8 @@
             <div class="word-display">
                 <h2>What does this word mean?</h2>
                 <div class="word" id="currentWord">WORD</div>
+                <button class="speaker-button" id="speakerButton" title="Click to hear the word">🔊 Listen</button>
+                <div class="example-sentence" id="exampleSentence"></div>
             </div>
 
             <div class="answers-grid" id="answersGrid">
@@ -52,9 +80,56 @@
             </div>
             <div class="progress-text">Level Progress</div>
         </div>
-
-        <div class="celebration" id="celebration"></div>
     </div>
+
+    <!-- Full Screen Celebration Overlay -->
+    <div class="fullscreen-overlay" id="celebrationOverlay">
+        <div class="celebration-content">
+            <div class="big-mascot" id="celebrationMascot">🦁👔</div>
+            <div class="celebration-message" id="celebrationMessage">AMAZING!</div>
+            <div class="celebration-stars"></div>
+        </div>
+    </div>
+
+    <!-- Full Screen Wrong Answer Overlay -->
+    <div class="fullscreen-overlay" id="wrongOverlay">
+        <div class="wrong-content">
+            <div class="sad-mascot" id="wrongMascot">🦁👔</div>
+            <div class="wrong-message">Oops! Let's learn this one!</div>
+            <div class="correct-answer-reveal">
+                <div class="reveal-label">The correct answer is:</div>
+                <div class="reveal-answer" id="revealAnswer"></div>
+                <div class="reveal-word-container">
+                    <span class="reveal-word" id="revealWord">WORD</span>
+                    <span class="reveal-means">means</span>
+                    <span class="reveal-definition" id="revealDefinition">definition</span>
+                </div>
+                <button class="continue-button" id="continueButton">Got It! Let's Continue! 🚀</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Level Complete Overlay -->
+    <div class="fullscreen-overlay" id="levelCompleteOverlay">
+        <div class="level-complete-content">
+            <div class="huge-mascot" id="levelMascot">🦁👔</div>
+            <div class="level-title">🎉 LEVEL COMPLETE! 🎉</div>
+            <div class="level-stats">
+                <div class="level-stat">
+                    <div class="level-stat-label">Points Earned</div>
+                    <div class="level-stat-value" id="levelPoints">0</div>
+                </div>
+                <div class="level-stat">
+                    <div class="level-stat-label">Total Score</div>
+                    <div class="level-stat-value" id="levelTotalScore">0</div>
+                </div>
+            </div>
+            <div class="level-message" id="levelMessage"></div>
+            <button class="continue-button" id="levelContinueButton">Keep Going! 🌟</button>
+        </div>
+    </div>
+
+    <div class="celebration-particles" id="celebrationParticles"></div>
 
     <script src="vocab-game.js"></script>
 </body>
