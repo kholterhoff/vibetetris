@@ -11,33 +11,39 @@
 
     <!-- Mascot Selection Screen -->
     <div class="mascot-selection-screen" id="mascotSelection">
-        <h1 class="selection-title">🌟 Choose Your Adventure Buddy! 🌟</h1>
+        <h1 class="selection-title">Choose Your Adventure Buddy!</h1>
         <div class="mascot-choices">
             <div class="mascot-choice" data-mascot="lion">
-                <div class="mascot-character">🦁👔</div>
+                <div class="mascot-character">🦁</div>
                 <div class="mascot-name">Leo the Lion</div>
-                <div class="mascot-outfit">Wearing a Fancy Tie!</div>
                 <button class="select-button">Pick Me!</button>
             </div>
             <div class="mascot-choice" data-mascot="panda">
-                <div class="mascot-character">🐼🎩</div>
+                <div class="mascot-character">🐼</div>
                 <div class="mascot-name">Penny the Panda</div>
-                <div class="mascot-outfit">Wearing a Top Hat!</div>
                 <button class="select-button">Pick Me!</button>
             </div>
             <div class="mascot-choice" data-mascot="fox">
-                <div class="mascot-character">🦊🎓</div>
+                <div class="mascot-character">🦊</div>
                 <div class="mascot-name">Freddy the Fox</div>
-                <div class="mascot-outfit">Wearing a Graduation Cap!</div>
                 <button class="select-button">Pick Me!</button>
             </div>
+        </div>
+    </div>
+
+    <!-- Unit Selection Screen -->
+    <div class="unit-selection-screen" id="unitSelection" style="display: none;">
+        <h1 class="selection-title">Choose a Unit to Learn!</h1>
+        <div class="units-container" id="unitsContainer">
+            <!-- Units will be dynamically inserted here -->
         </div>
     </div>
 
     <!-- Main Game Container -->
     <div class="game-container" id="gameContainer" style="display: none;">
         <div class="header">
-            <h1>🌟 ANIMAL VOCAB ADVENTURE! 🌟</h1>
+            <h1>ANIMAL VOCAB ADVENTURE!</h1>
+            <div class="unit-title" id="unitTitle">Unit 1: Amazing Adventures</div>
             <div class="stats">
                 <div class="stat-item">
                     <span class="stat-label">⭐ Score:</span>
@@ -57,7 +63,7 @@
         </div>
 
         <div class="mascot-container">
-            <div class="mascot" id="mascot">🦁👔</div>
+            <div class="mascot" id="mascot">🦁</div>
             <div class="speech-bubble" id="speechBubble">Let's learn some words!</div>
         </div>
 
@@ -85,7 +91,7 @@
     <!-- Full Screen Celebration Overlay -->
     <div class="fullscreen-overlay" id="celebrationOverlay">
         <div class="celebration-content">
-            <div class="big-mascot" id="celebrationMascot">🦁👔</div>
+            <div class="big-mascot" id="celebrationMascot">🦁</div>
             <div class="celebration-message" id="celebrationMessage">AMAZING!</div>
             <div class="celebration-stars"></div>
         </div>
@@ -94,7 +100,7 @@
     <!-- Full Screen Wrong Answer Overlay -->
     <div class="fullscreen-overlay" id="wrongOverlay">
         <div class="wrong-content">
-            <div class="sad-mascot" id="wrongMascot">🦁👔</div>
+            <div class="sad-mascot" id="wrongMascot">🦁</div>
             <div class="wrong-message">Oops! Let's learn this one!</div>
             <div class="correct-answer-reveal">
                 <div class="reveal-label">The correct answer is:</div>
@@ -104,28 +110,24 @@
                     <span class="reveal-means">means</span>
                     <span class="reveal-definition" id="revealDefinition">definition</span>
                 </div>
-                <button class="continue-button" id="continueButton">Got It! Let's Continue! 🚀</button>
+                <button class="continue-button" id="continueButton">Got It! Let's Continue!</button>
             </div>
         </div>
     </div>
 
-    <!-- Level Complete Overlay -->
-    <div class="fullscreen-overlay" id="levelCompleteOverlay">
-        <div class="level-complete-content">
-            <div class="huge-mascot" id="levelMascot">🦁👔</div>
-            <div class="level-title">🎉 LEVEL COMPLETE! 🎉</div>
-            <div class="level-stats">
-                <div class="level-stat">
-                    <div class="level-stat-label">Points Earned</div>
-                    <div class="level-stat-value" id="levelPoints">0</div>
-                </div>
-                <div class="level-stat">
-                    <div class="level-stat-label">Total Score</div>
-                    <div class="level-stat-value" id="levelTotalScore">0</div>
+    <!-- Unit Complete Overlay -->
+    <div class="fullscreen-overlay" id="unitCompleteOverlay">
+        <div class="unit-complete-content">
+            <div class="huge-mascot" id="unitCompleteMascot">🦁</div>
+            <div class="unit-complete-title">UNIT COMPLETE!</div>
+            <div class="unit-complete-stats">
+                <div class="unit-complete-stat">
+                    <div class="unit-complete-stat-label">Your Score</div>
+                    <div class="unit-complete-stat-value" id="unitCompleteScore">0</div>
                 </div>
             </div>
-            <div class="level-message" id="levelMessage"></div>
-            <button class="continue-button" id="levelContinueButton">Keep Going! 🌟</button>
+            <div class="unit-complete-message" id="unitCompleteMessage"></div>
+            <button class="continue-button" id="chooseAnotherUnitButton">Choose Another Unit</button>
         </div>
     </div>
 
