@@ -1,0 +1,1127 @@
+{
+  "grades": [
+    {
+      "grade": 2,
+      "gradeName": "2nd Grade",
+      "units": [
+        {
+          "unitNumber": 1,
+          "unitName": "Amazing Adventures",
+          "words": [
+            { "word": "AMAZE", "definition": "To surprise someone very much", "sentence": "The magic trick will amaze everyone at the party!", "wrongAnswers": ["To make someone angry", "To run very fast", "To eat quickly"] },
+            { "word": "BRAVE", "definition": "Not afraid of danger", "sentence": "The brave firefighter rescued the cat from the tree.", "wrongAnswers": ["Very tired", "Always hungry", "Likes to sleep"] },
+            { "word": "CURIOUS", "definition": "Wanting to know or learn about things", "sentence": "The curious kitten explored every corner of the house.", "wrongAnswers": ["Feeling sleepy", "Being mean", "Always sad"] },
+            { "word": "DISCOVER", "definition": "To find something for the first time", "sentence": "Scientists discover new things about space every day.", "wrongAnswers": ["To lose something", "To break something", "To forget something"] },
+            { "word": "ESCAPE", "definition": "To get away from something", "sentence": "The rabbit tried to escape from the garden.", "wrongAnswers": ["To catch something", "To buy something", "To cook something"] },
+            { "word": "IMAGINE", "definition": "To create pictures in your mind", "sentence": "Close your eyes and imagine you're flying like a bird.", "wrongAnswers": ["To forget things", "To run fast", "To eat food"] },
+            { "word": "JOURNEY", "definition": "A trip from one place to another", "sentence": "Our journey to grandma's house takes three hours.", "wrongAnswers": ["A type of food", "A kind of animal", "A game to play"] },
+            { "word": "MIGHTY", "definition": "Very strong and powerful", "sentence": "The mighty oak tree survived the big storm.", "wrongAnswers": ["Very weak", "Very small", "Very slow"] },
+            { "word": "PRECIOUS", "definition": "Very valuable or special", "sentence": "This necklace is precious because it belonged to my grandmother.", "wrongAnswers": ["Worthless", "Garbage", "Broken"] },
+            { "word": "VISION", "definition": "The ability to see", "sentence": "Eagles have excellent vision and can see far away.", "wrongAnswers": ["The ability to hear", "The ability to smell", "The ability to taste"] }
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "unitName": "Describing the World",
+          "words": [
+            { "word": "ENORMOUS", "definition": "Very, very big", "sentence": "The elephant was enormous compared to the mouse.", "wrongAnswers": ["Very tiny", "Very colorful", "Very old"] },
+            { "word": "GIGANTIC", "definition": "Extremely large", "sentence": "The gigantic dinosaur skeleton filled the whole museum room.", "wrongAnswers": ["Very small", "Just right", "Medium sized"] },
+            { "word": "TINY", "definition": "Very small", "sentence": "The tiny ant carried a crumb bigger than itself.", "wrongAnswers": ["Very big", "Medium sized", "Gigantic"] },
+            { "word": "CALM", "definition": "Peaceful and quiet", "sentence": "The lake was calm and still this morning.", "wrongAnswers": ["Very loud", "Moving fast", "Feeling sick"] },
+            { "word": "RAPID", "definition": "Very fast", "sentence": "The rabbit made a rapid escape from the fox.", "wrongAnswers": ["Very slow", "Standing still", "Moving backward"] },
+            { "word": "PECULIAR", "definition": "Strange or unusual", "sentence": "The cat made a peculiar sound when it saw the bird.", "wrongAnswers": ["Very normal", "Completely regular", "Just like everything"] },
+            { "word": "ORDINARY", "definition": "Normal or usual", "sentence": "It was just an ordinary day until we found a treasure map!", "wrongAnswers": ["Very special", "Super rare", "Really weird"] },
+            { "word": "UNIQUE", "definition": "One of a kind, special", "sentence": "Every snowflake is unique and different from the others.", "wrongAnswers": ["Just like everything else", "Very common", "Boring and usual"] },
+            { "word": "VACANT", "definition": "Empty, not being used", "sentence": "The house next door has been vacant for months.", "wrongAnswers": ["Completely full", "Very crowded", "Packed tight"] },
+            { "word": "SCARCE", "definition": "Not enough of something", "sentence": "Water becomes scarce in the desert during hot summers.", "wrongAnswers": ["Too much of something", "Just the right amount", "Everywhere you look"] }
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "unitName": "Feelings & Emotions",
+          "words": [
+            { "word": "AMUSING", "definition": "Funny or entertaining", "sentence": "The clown's silly tricks were very amusing to watch.", "wrongAnswers": ["Very scary", "Bright and colorful", "Difficult to understand"] },
+            { "word": "DROWSY", "definition": "Feeling sleepy", "sentence": "I feel drowsy after eating a big lunch.", "wrongAnswers": ["Feeling excited", "Feeling angry", "Feeling hungry"] },
+            { "word": "GRATEFUL", "definition": "Feeling thankful", "sentence": "I'm grateful for my family and friends.", "wrongAnswers": ["Feeling mad", "Feeling bored", "Feeling lost"] },
+            { "word": "GREEDY", "definition": "Wanting more than you need", "sentence": "Don't be greedy - share the cookies with your brother.", "wrongAnswers": ["Sharing everything", "Being generous", "Helping others"] },
+            { "word": "KEEN", "definition": "Very interested or eager", "sentence": "She was keen to start her new art project.", "wrongAnswers": ["Not caring at all", "Very sleepy", "Always angry"] },
+            { "word": "PLEASANT", "definition": "Nice or enjoyable", "sentence": "We had a pleasant time at the park today.", "wrongAnswers": ["Very mean", "Really bad", "Super scary"] },
+            { "word": "GENTLE", "definition": "Soft and kind", "sentence": "Be gentle when you pet the baby bunny.", "wrongAnswers": ["Rough and mean", "Fast and loud", "Cold and wet"] },
+            { "word": "HONEST", "definition": "Truthful and doesn't lie", "sentence": "It's important to be honest and tell the truth.", "wrongAnswers": ["Always lying", "Never talking", "Very loud"] },
+            { "word": "FOOLISH", "definition": "Not smart or silly", "sentence": "It would be foolish to go outside without a coat in winter.", "wrongAnswers": ["Very wise", "Always right", "Super smart"] },
+            { "word": "SPLENDID", "definition": "Wonderful or excellent", "sentence": "You did a splendid job on your art project!", "wrongAnswers": ["Terrible", "Awful", "Really bad"] }
+          ]
+        },
+        {
+          "unitNumber": 4,
+          "unitName": "Action Words",
+          "words": [
+            { "word": "ANNOY", "definition": "To bother or irritate someone", "sentence": "Please don't annoy your sister while she's reading.", "wrongAnswers": ["To help someone", "To teach someone", "To play with someone"] },
+            { "word": "ARRANGE", "definition": "To put things in order", "sentence": "Can you arrange your toys neatly on the shelf?", "wrongAnswers": ["To throw things away", "To hide things", "To lose things"] },
+            { "word": "AVOID", "definition": "To stay away from something", "sentence": "Try to avoid stepping in the puddles.", "wrongAnswers": ["To find something", "To chase after something", "To collect something"] },
+            { "word": "CLASSIFY", "definition": "To put things into groups", "sentence": "We can classify animals by how many legs they have.", "wrongAnswers": ["To throw things", "To color things", "To count things"] },
+            { "word": "HARVEST", "definition": "To gather crops from a farm", "sentence": "Farmers harvest corn and wheat in the fall.", "wrongAnswers": ["To plant seeds", "To water plants", "To sleep outside"] },
+            { "word": "INSIST", "definition": "To say something firmly", "sentence": "Mom will insist that we clean our rooms before playing.", "wrongAnswers": ["To whisper quietly", "To give up easily", "To run away"] },
+            { "word": "NOTICE", "definition": "To see or become aware of something", "sentence": "Did you notice the colorful rainbow in the sky?", "wrongAnswers": ["To ignore everything", "To sleep deeply", "To run quickly"] },
+            { "word": "OBSERVE", "definition": "To watch carefully", "sentence": "Let's observe the ants as they build their hill.", "wrongAnswers": ["To look away", "To close eyes", "To hide quickly"] },
+            { "word": "SUGGEST", "definition": "To give an idea", "sentence": "I suggest we have pizza for dinner tonight.", "wrongAnswers": ["To refuse everything", "To take away", "To break something"] },
+            { "word": "VANISH", "definition": "To disappear suddenly", "sentence": "The magician made the rabbit vanish into thin air!", "wrongAnswers": ["To appear slowly", "To grow bigger", "To stay forever"] }
+          ]
+        },
+        {
+          "unitNumber": 5,
+          "unitName": "Thinking & Learning",
+          "words": [
+            { "word": "ANALYZE", "definition": "To study something carefully", "sentence": "Let's analyze the bug under the microscope.", "wrongAnswers": ["To break something", "To draw a picture", "To sing a song"] },
+            { "word": "DESCRIBE", "definition": "To tell what something is like", "sentence": "Can you describe what your new puppy looks like?", "wrongAnswers": ["To eat something", "To run away", "To climb up"] },
+            { "word": "ESTIMATE", "definition": "To make a careful guess", "sentence": "Can you estimate how many jellybeans are in the jar?", "wrongAnswers": ["To know for sure", "To give up", "To start over"] },
+            { "word": "EXPECT", "definition": "To think something will happen", "sentence": "I expect it will rain later because of the dark clouds.", "wrongAnswers": ["To forget everything", "To feel scared", "To be confused"] },
+            { "word": "PREDICT", "definition": "To say what will happen in the future", "sentence": "Can you predict who will win the race?", "wrongAnswers": ["To forget the past", "To sleep now", "To eat lunch"] },
+            { "word": "QUESTION", "definition": "Something you ask", "sentence": "Raise your hand if you have a question about the story.", "wrongAnswers": ["An answer you give", "A game you play", "A song you sing"] },
+            { "word": "RECOGNIZE", "definition": "To know who someone is or what something is", "sentence": "I didn't recognize you in your Halloween costume!", "wrongAnswers": ["To forget everything", "To be confused", "To run away"] },
+            { "word": "SIMPLE", "definition": "Easy to do or understand", "sentence": "This puzzle is simple enough for young children.", "wrongAnswers": ["Very hard", "Super confusing", "Really difficult"] },
+            { "word": "DETAIL", "definition": "A small part or piece of information", "sentence": "She drew every detail of the butterfly's wings.", "wrongAnswers": ["A large ocean", "A tall mountain", "A fast car"] },
+            { "word": "INVISIBLE", "definition": "Cannot be seen", "sentence": "Air is invisible but we can feel it when the wind blows.", "wrongAnswers": ["Very bright", "Super loud", "Really big"] }
+          ]
+        },
+        {
+          "unitNumber": 6,
+          "unitName": "More Great Words",
+          "words": [
+            { "word": "CAUSE", "definition": "To make something happen", "sentence": "Heavy rain can cause floods in the streets.", "wrongAnswers": ["To stop something", "To watch something", "To forget something"] },
+            { "word": "COMMUNITY", "definition": "A group of people living in the same area", "sentence": "Our community is having a fun fair this weekend.", "wrongAnswers": ["A type of animal", "A kind of food", "A big building"] },
+            { "word": "CYCLE", "definition": "A series of events that repeat", "sentence": "The water cycle shows how rain comes from clouds.", "wrongAnswers": ["A type of tree", "A loud noise", "A kind of weather"] },
+            { "word": "EXERCISE", "definition": "Physical activity to stay healthy", "sentence": "Running and jumping are good forms of exercise.", "wrongAnswers": ["Eating candy", "Watching TV", "Taking a nap"] },
+            { "word": "FAMOUS", "definition": "Known by many people", "sentence": "The famous singer performed at our town's concert.", "wrongAnswers": ["Unknown to everyone", "Very small", "Always quiet"] },
+            { "word": "HABITAT", "definition": "The natural home of an animal or plant", "sentence": "The ocean is the habitat of dolphins and whales.", "wrongAnswers": ["A type of food", "A kind of toy", "A school subject"] },
+            { "word": "LIBERTY", "definition": "Freedom to do things", "sentence": "We have the liberty to choose our own books to read.", "wrongAnswers": ["Being locked up", "Feeling sick", "Running slowly"] },
+            { "word": "STURDY", "definition": "Strong and won't break easily", "sentence": "We need a sturdy ladder to reach the roof.", "wrongAnswers": ["Weak and fragile", "Soft and squishy", "Light as air"] },
+            { "word": "TEXTURE", "definition": "How something feels when you touch it", "sentence": "The smooth texture of silk feels nice on my skin.", "wrongAnswers": ["How something tastes", "How something sounds", "How something thinks"] },
+            { "word": "TREMENDOUS", "definition": "Very large or great", "sentence": "The team made a tremendous effort to win the game.", "wrongAnswers": ["Very tiny", "Very boring", "Very quiet"] },
+            { "word": "VALUABLE", "definition": "Worth a lot, important", "sentence": "This old coin is very valuable to collectors.", "wrongAnswers": ["Worthless", "Useless", "Trash"] }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 3,
+      "gradeName": "3rd Grade",
+      "units": [
+        {
+          "unitNumber": 1,
+          "unitName": "Amazing Adjectives",
+          "words": [
+            { "word": "ABSURD", "definition": "Ridiculous or silly in a funny way", "sentence": "It would be absurd to wear winter clothes to the beach.", "wrongAnswers": ["Very normal", "Completely serious", "Perfectly sensible"] },
+            { "word": "ANCIENT", "definition": "Very old, from a long time ago", "sentence": "The ancient pyramids in Egypt were built thousands of years ago.", "wrongAnswers": ["Brand new", "Recently made", "Built yesterday"] },
+            { "word": "BLEAK", "definition": "Cold, empty, and sad", "sentence": "The winter landscape looked bleak without any leaves on the trees.", "wrongAnswers": ["Warm and cheerful", "Colorful and happy", "Bright and sunny"] },
+            { "word": "DIRE", "definition": "Very serious or urgent", "sentence": "The stranded sailors were in dire need of fresh water.", "wrongAnswers": ["Not important", "Easy to fix", "Totally fine"] },
+            { "word": "EARNEST", "definition": "Serious and sincere", "sentence": "She made an earnest promise to take care of her little brother.", "wrongAnswers": ["Joking around", "Not caring", "Being silly"] },
+            { "word": "FRAGILE", "definition": "Easy to break or damage", "sentence": "Handle the fragile glass ornament with care.", "wrongAnswers": ["Very strong", "Cannot break", "Super tough"] },
+            { "word": "IMMENSE", "definition": "Extremely large", "sentence": "The immense whale swam slowly through the ocean.", "wrongAnswers": ["Very tiny", "Quite small", "Medium sized"] },
+            { "word": "NOBLE", "definition": "Having good character, honorable", "sentence": "It was noble of him to share his lunch with a hungry friend.", "wrongAnswers": ["Mean and selfish", "Unkind", "Rude"] },
+            { "word": "RECKLESS", "definition": "Careless and dangerous", "sentence": "Riding a bike without a helmet is reckless.", "wrongAnswers": ["Very careful", "Super safe", "Well planned"] },
+            { "word": "VAST", "definition": "Extremely large in size or amount", "sentence": "The vast desert stretched as far as we could see.", "wrongAnswers": ["Very small", "Tiny area", "Little space"] }
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "unitName": "Powerful Verbs",
+          "words": [
+            { "word": "ACCUMULATE", "definition": "To gather or collect over time", "sentence": "Dust will accumulate if you don't clean your room regularly.", "wrongAnswers": ["To scatter everywhere", "To throw away", "To lose quickly"] },
+            { "word": "COLLAPSE", "definition": "To fall down suddenly", "sentence": "The old barn began to collapse during the storm.", "wrongAnswers": ["To stand tall", "To grow stronger", "To build up"] },
+            { "word": "DEMONSTRATE", "definition": "To show how to do something", "sentence": "The teacher will demonstrate how to solve the math problem.", "wrongAnswers": ["To hide something", "To forget how", "To refuse to show"] },
+            { "word": "ESTABLISH", "definition": "To set up or create", "sentence": "The pioneers worked hard to establish a new town.", "wrongAnswers": ["To destroy completely", "To tear down", "To abandon"] },
+            { "word": "FLOURISH", "definition": "To grow well and be successful", "sentence": "Plants flourish when they get plenty of sun and water.", "wrongAnswers": ["To die quickly", "To wither away", "To stop growing"] },
+            { "word": "INVESTIGATE", "definition": "To search for information or evidence", "sentence": "The detective will investigate the mysterious footprints.", "wrongAnswers": ["To ignore clues", "To give up", "To stop looking"] },
+            { "word": "PERSUADE", "definition": "To convince someone to do something", "sentence": "I tried to persuade my parents to get a puppy.", "wrongAnswers": ["To force someone", "To ignore someone", "To confuse someone"] },
+            { "word": "PROHIBIT", "definition": "To not allow something", "sentence": "The signs prohibit swimming in the lake after dark.", "wrongAnswers": ["To encourage", "To allow freely", "To require"] },
+            { "word": "RETRIEVE", "definition": "To get something back", "sentence": "The dog loves to retrieve the tennis ball when we throw it.", "wrongAnswers": ["To lose forever", "To hide away", "To destroy"] },
+            { "word": "SURRENDER", "definition": "To give up or stop fighting", "sentence": "The army decided to surrender after losing many battles.", "wrongAnswers": ["To keep fighting", "To attack harder", "To win easily"] }
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "unitName": "Nature & Science",
+          "words": [
+            { "word": "ALTITUDE", "definition": "Height above sea level", "sentence": "Airplanes fly at a high altitude above the clouds.", "wrongAnswers": ["How wide something is", "How old something is", "How fast something moves"] },
+            { "word": "CANYON", "definition": "A deep valley with steep sides", "sentence": "The Grand Canyon is one of the most beautiful canyons in the world.", "wrongAnswers": ["A tall mountain", "A flat desert", "A deep ocean"] },
+            { "word": "CLIMATE", "definition": "The usual weather in a place", "sentence": "The climate in Hawaii is warm and tropical all year long.", "wrongAnswers": ["A single day's weather", "The time of day", "The season"] },
+            { "word": "EXTINCT", "definition": "No longer existing", "sentence": "Dinosaurs became extinct millions of years ago.", "wrongAnswers": ["Still living", "Very common", "Growing in numbers"] },
+            { "word": "FOSSIL", "definition": "Remains of ancient plants or animals in rock", "sentence": "We found a fossil of a seashell in the limestone.", "wrongAnswers": ["A living animal", "A new plant", "Fresh food"] },
+            { "word": "MIGRATE", "definition": "To move from one place to another", "sentence": "Many birds migrate south for the winter.", "wrongAnswers": ["To stay in one place", "To build a nest", "To sleep all winter"] },
+            { "word": "ORBIT", "definition": "The path something takes around another object", "sentence": "The Moon travels in an orbit around the Earth.", "wrongAnswers": ["A straight line", "Standing still", "Spinning in place"] },
+            { "word": "PREY", "definition": "An animal hunted by another for food", "sentence": "Mice are prey for hawks and owls.", "wrongAnswers": ["The hunter", "A plant", "A rock"] },
+            { "word": "SPECIES", "definition": "A group of similar living things", "sentence": "Dogs and wolves belong to different species.", "wrongAnswers": ["A single animal", "A type of plant food", "A kind of rock"] },
+            { "word": "VOLUME", "definition": "The amount of space something takes up", "sentence": "We measured the volume of water in the pitcher.", "wrongAnswers": ["How loud something is only", "How heavy something is", "How long something is"] }
+          ]
+        },
+        {
+          "unitNumber": 4,
+          "unitName": "Character & Emotions",
+          "words": [
+            { "word": "ANXIOUS", "definition": "Worried or nervous about something", "sentence": "She felt anxious before taking the big test.", "wrongAnswers": ["Completely calm", "Very relaxed", "Totally happy"] },
+            { "word": "COMPASSION", "definition": "Caring about others who are suffering", "sentence": "The nurse showed great compassion for her patients.", "wrongAnswers": ["Not caring at all", "Being mean", "Ignoring others"] },
+            { "word": "COURAGE", "definition": "Bravery in facing danger or difficulty", "sentence": "It takes courage to stand up to bullies.", "wrongAnswers": ["Being scared", "Running away", "Giving up"] },
+            { "word": "DEFIANT", "definition": "Refusing to obey", "sentence": "The defiant student refused to follow the teacher's instructions.", "wrongAnswers": ["Very obedient", "Always following rules", "Completely agreeable"] },
+            { "word": "ENVY", "definition": "Wanting what someone else has", "sentence": "Try not to feel envy when your friend gets a new toy.", "wrongAnswers": ["Being happy for others", "Not caring", "Feeling grateful"] },
+            { "word": "HUMBLE", "definition": "Not thinking you're better than others", "sentence": "Even though she won first place, she remained humble.", "wrongAnswers": ["Very boastful", "Always bragging", "Acting superior"] },
+            { "word": "LOYAL", "definition": "Faithful and supportive", "sentence": "A loyal friend stays by your side in good times and bad.", "wrongAnswers": ["Betraying people", "Being unfaithful", "Abandoning friends"] },
+            { "word": "RELUCTANT", "definition": "Not wanting to do something", "sentence": "The cat was reluctant to go outside in the rain.", "wrongAnswers": ["Very eager", "Really excited", "Totally willing"] },
+            { "word": "TIMID", "definition": "Shy and nervous", "sentence": "The timid mouse hid when it heard footsteps.", "wrongAnswers": ["Very bold", "Super confident", "Really brave"] },
+            { "word": "WEARY", "definition": "Very tired", "sentence": "After hiking all day, we felt weary and ready to rest.", "wrongAnswers": ["Full of energy", "Very excited", "Wide awake"] }
+          ]
+        },
+        {
+          "unitNumber": 5,
+          "unitName": "Story Time Words",
+          "words": [
+            { "word": "ABSURD", "definition": "Completely unreasonable or silly", "sentence": "The idea of a flying elephant seems absurd.", "wrongAnswers": ["Very sensible", "Totally normal", "Completely reasonable"] },
+            { "word": "CONFLICT", "definition": "A serious disagreement or fight", "sentence": "The story's main conflict was between the hero and the villain.", "wrongAnswers": ["Perfect agreement", "Happy friendship", "Complete peace"] },
+            { "word": "DECEIVE", "definition": "To trick or lie to someone", "sentence": "The wolf tried to deceive Little Red Riding Hood.", "wrongAnswers": ["To tell the truth", "To help honestly", "To be sincere"] },
+            { "word": "DISMAY", "definition": "Feeling upset or disappointed", "sentence": "To her dismay, the picnic was canceled due to rain.", "wrongAnswers": ["Great happiness", "Complete joy", "Total excitement"] },
+            { "word": "DWELL", "definition": "To live in a place", "sentence": "The troll in the story dwells under a bridge.", "wrongAnswers": ["To visit briefly", "To run away", "To never stay"] },
+            { "word": "FABLE", "definition": "A short story that teaches a lesson", "sentence": "The fable about the tortoise and the hare teaches us about persistence.", "wrongAnswers": ["A true news story", "A history book", "A math problem"] },
+            { "word": "HIDEOUS", "definition": "Very ugly or unpleasant", "sentence": "The monster in the story had a hideous appearance.", "wrongAnswers": ["Very beautiful", "Really pretty", "Quite handsome"] },
+            { "word": "MORAL", "definition": "The lesson in a story", "sentence": "The moral of the story is to always tell the truth.", "wrongAnswers": ["The beginning", "The characters", "The setting"] },
+            { "word": "QUEST", "definition": "A long search for something", "sentence": "The knight went on a quest to find the magic sword.", "wrongAnswers": ["Staying home", "Taking a nap", "Watching TV"] },
+            { "word": "TRIUMPH", "definition": "A great victory or success", "sentence": "The team's triumph in the final game was exciting.", "wrongAnswers": ["A terrible loss", "A big failure", "A huge defeat"] }
+          ]
+        },
+        {
+          "unitNumber": 6,
+          "unitName": "Everyday Excellence",
+          "words": [
+            { "word": "ADEQUATE", "definition": "Enough or good enough", "sentence": "Make sure you get adequate sleep before the big day.", "wrongAnswers": ["Not enough", "Too little", "Insufficient"] },
+            { "word": "BAFFLE", "definition": "To confuse someone", "sentence": "The magician's tricks baffle the audience.", "wrongAnswers": ["To explain clearly", "To make sense", "To simplify"] },
+            { "word": "CAPABLE", "definition": "Able to do something", "sentence": "She is capable of solving difficult problems.", "wrongAnswers": ["Unable to do anything", "Completely helpless", "Totally incompetent"] },
+            { "word": "DETERMINE", "definition": "To decide or figure out", "sentence": "We need to determine which route is fastest.", "wrongAnswers": ["To give up", "To stay confused", "To ignore"] },
+            { "word": "EFFICIENT", "definition": "Working well without wasting time", "sentence": "An efficient worker finishes tasks quickly and correctly.", "wrongAnswers": ["Very slow", "Wasting time", "Being lazy"] },
+            { "word": "GENUINE", "definition": "Real and true, not fake", "sentence": "Her smile showed genuine happiness.", "wrongAnswers": ["Completely fake", "Totally false", "Not real"] },
+            { "word": "INSULT", "definition": "To say something mean to hurt someone's feelings", "sentence": "It's wrong to insult people because of how they look.", "wrongAnswers": ["To compliment", "To praise", "To honor"] },
+            { "word": "OCCUR", "definition": "To happen", "sentence": "Earthquakes occur when the ground shakes.", "wrongAnswers": ["To never happen", "To stop", "To prevent"] },
+            { "word": "RESTORE", "definition": "To bring back to original condition", "sentence": "Workers will restore the old painting to its original beauty.", "wrongAnswers": ["To destroy", "To damage more", "To throw away"] },
+            { "word": "VARIETY", "definition": "Many different kinds", "sentence": "The garden has a variety of colorful flowers.", "wrongAnswers": ["Only one type", "All the same", "No differences"] }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "gradeName": "4th Grade",
+      "units": [
+        {
+          "unitNumber": 1,
+          "unitName": "Complex Concepts",
+          "words": [
+            { "word": "ABUNDANT", "definition": "More than enough, plentiful", "sentence": "The farm had an abundant harvest of vegetables this year.", "wrongAnswers": ["Very scarce", "Almost nothing", "Barely any"] },
+            { "word": "ADVANTAGE", "definition": "Something that helps you succeed", "sentence": "Being tall is an advantage in basketball.", "wrongAnswers": ["A disadvantage", "A problem", "An obstacle"] },
+            { "word": "ARTIFACT", "definition": "An old object made by humans", "sentence": "The museum displayed artifacts from ancient Rome.", "wrongAnswers": ["A new invention", "A modern toy", "Fresh food"] },
+            { "word": "CONCEAL", "definition": "To hide something", "sentence": "The spy tried to conceal the secret documents.", "wrongAnswers": ["To reveal", "To show off", "To display"] },
+            { "word": "ESSENTIAL", "definition": "Absolutely necessary", "sentence": "Water is essential for all living things.", "wrongAnswers": ["Not needed", "Optional", "Unnecessary"] },
+            { "word": "KEEN", "definition": "Sharp or intense", "sentence": "Eagles have keen eyesight for hunting.", "wrongAnswers": ["Very dull", "Quite weak", "Not sharp"] },
+            { "word": "NEGATIVE", "definition": "Bad or unfavorable", "sentence": "The negative reviews caused people to avoid the movie.", "wrongAnswers": ["Very positive", "Completely good", "Totally favorable"] },
+            { "word": "POTENTIAL", "definition": "The possibility of becoming something", "sentence": "She has great potential to become a scientist.", "wrongAnswers": ["No chance", "Impossibility", "Cannot happen"] },
+            { "word": "RESEMBLE", "definition": "To look like something else", "sentence": "The baby elephant resembles its mother.", "wrongAnswers": ["To look completely different", "To be opposite", "To contrast"] },
+            { "word": "TRADITION", "definition": "A custom passed down through time", "sentence": "It's a tradition in our family to bake cookies at Christmas.", "wrongAnswers": ["A brand new idea", "Something temporary", "A recent fad"] }
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "unitName": "Action & Change",
+          "words": [
+            { "word": "ACCOMPLISH", "definition": "To complete or achieve something", "sentence": "With hard work, you can accomplish your goals.", "wrongAnswers": ["To fail completely", "To give up", "To quit"] },
+            { "word": "ADAPT", "definition": "To change to fit new conditions", "sentence": "Animals adapt to survive in their environments.", "wrongAnswers": ["To stay the same", "To never change", "To resist change"] },
+            { "word": "CONVEY", "definition": "To communicate or transport", "sentence": "Her smile conveyed happiness to everyone around her.", "wrongAnswers": ["To hide feelings", "To conceal", "To keep secret"] },
+            { "word": "DISTRIBUTE", "definition": "To give out or spread", "sentence": "The teacher will distribute the worksheets to the class.", "wrongAnswers": ["To collect everything", "To keep all", "To hoard"] },
+            { "word": "ELIMINATE", "definition": "To remove or get rid of", "sentence": "Good hygiene helps eliminate germs.", "wrongAnswers": ["To add more", "To increase", "To multiply"] },
+            { "word": "GENERATE", "definition": "To create or produce", "sentence": "Solar panels generate electricity from sunlight.", "wrongAnswers": ["To destroy", "To consume", "To waste"] },
+            { "word": "INHABIT", "definition": "To live in a place", "sentence": "Polar bears inhabit the Arctic regions.", "wrongAnswers": ["To visit briefly", "To avoid", "To leave"] },
+            { "word": "MINIMIZE", "definition": "To make as small as possible", "sentence": "We should minimize waste by recycling.", "wrongAnswers": ["To maximize", "To increase greatly", "To enlarge"] },
+            { "word": "TRANSFORM", "definition": "To change completely", "sentence": "Caterpillars transform into beautiful butterflies.", "wrongAnswers": ["To stay the same", "To remain unchanged", "To keep as is"] },
+            { "word": "VERIFY", "definition": "To check if something is true", "sentence": "Please verify your answer before submitting the test.", "wrongAnswers": ["To assume without checking", "To guess blindly", "To ignore"] }
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "unitName": "Social Studies",
+          "words": [
+            { "word": "BORDER", "definition": "The line between two places", "sentence": "The river forms a natural border between the two countries.", "wrongAnswers": ["The center", "The middle point", "The core"] },
+            { "word": "CONGRESS", "definition": "The lawmaking branch of government", "sentence": "Congress meets to discuss and vote on new laws.", "wrongAnswers": ["A sports team", "A school club", "A restaurant"] },
+            { "word": "DEMOCRACY", "definition": "Government by the people", "sentence": "In a democracy, citizens vote for their leaders.", "wrongAnswers": ["Rule by one king", "No government", "Random selection"] },
+            { "word": "EXPORT", "definition": "To send goods to another country", "sentence": "The United States exports wheat to many nations.", "wrongAnswers": ["To import", "To keep everything", "To receive goods"] },
+            { "word": "LEGISLATURE", "definition": "The group that makes laws", "sentence": "The state legislature passed a new education bill.", "wrongAnswers": ["A school", "A library", "A hospital"] },
+            { "word": "MONUMENT", "definition": "A structure built to remember something", "sentence": "The Washington Monument honors our first president.", "wrongAnswers": ["A regular building", "A temporary tent", "A normal house"] },
+            { "word": "POPULATION", "definition": "The number of people in a place", "sentence": "The population of our town has grown over the years.", "wrongAnswers": ["The size of land", "The weather", "The buildings"] },
+            { "word": "REGION", "definition": "A specific area or territory", "sentence": "The southwestern region of the country is very dry.", "wrongAnswers": ["A single point", "One building", "A tiny spot"] },
+            { "word": "SETTLEMENT", "definition": "A place where people establish a community", "sentence": "The first English settlement in America was Jamestown.", "wrongAnswers": ["An empty area", "A desert", "An ocean"] },
+            { "word": "TREATY", "definition": "A formal agreement between nations", "sentence": "The two countries signed a peace treaty to end the war.", "wrongAnswers": ["A type of weapon", "A battle plan", "A war declaration"] }
+          ]
+        },
+        {
+          "unitNumber": 4,
+          "unitName": "Science & Nature",
+          "words": [
+            { "word": "ABSORB", "definition": "To soak up or take in", "sentence": "Sponges absorb water quickly.", "wrongAnswers": ["To repel", "To push away", "To reject"] },
+            { "word": "ATMOSPHERE", "definition": "The layer of gases around Earth", "sentence": "The atmosphere protects us from harmful radiation.", "wrongAnswers": ["The ocean", "The ground", "The core"] },
+            { "word": "CONDENSATION", "definition": "When gas turns into liquid", "sentence": "Condensation forms on cold windows when warm air hits them.", "wrongAnswers": ["When ice melts", "When water boils", "When things burn"] },
+            { "word": "ENERGY", "definition": "The power to do work", "sentence": "We get energy from the food we eat.", "wrongAnswers": ["Laziness", "Sleep", "Stillness"] },
+            { "word": "EVAPORATE", "definition": "When liquid turns into gas", "sentence": "Puddles evaporate in the hot sun.", "wrongAnswers": ["When water freezes", "When ice forms", "When things sink"] },
+            { "word": "FRICTION", "definition": "The force that slows movement", "sentence": "Friction between the brakes and wheels stops the bike.", "wrongAnswers": ["Speed", "Acceleration", "Forward motion"] },
+            { "word": "HABITAT", "definition": "The natural home of a living thing", "sentence": "Coral reefs are the habitat of many colorful fish.", "wrongAnswers": ["A type of food", "A kind of plant", "A weather pattern"] },
+            { "word": "MICROSCOPE", "definition": "A tool to see tiny things", "sentence": "We used a microscope to examine the cells.", "wrongAnswers": ["A telescope", "A camera", "A magnifying glass for stars"] },
+            { "word": "NOCTURNAL", "definition": "Active at night", "sentence": "Owls are nocturnal birds that hunt after dark.", "wrongAnswers": ["Active in daytime", "Sleeping all day and night", "Never sleeping"] },
+            { "word": "ORGANISM", "definition": "A living thing", "sentence": "Every organism needs water to survive.", "wrongAnswers": ["A rock", "A machine", "A building"] }
+          ]
+        },
+        {
+          "unitNumber": 5,
+          "unitName": "Literature & Writing",
+          "words": [
+            { "word": "AUTOBIOGRAPHY", "definition": "A story someone writes about their own life", "sentence": "Benjamin Franklin wrote an autobiography about his experiences.", "wrongAnswers": ["A story about someone else", "A fictional tale", "A poem"] },
+            { "word": "BIOGRAPHY", "definition": "A story about someone's life", "sentence": "I read a biography about Martin Luther King Jr.", "wrongAnswers": ["A made-up story", "A horror tale", "A joke book"] },
+            { "word": "COMPARE", "definition": "To show how things are similar", "sentence": "Let's compare apples and oranges to see what they have in common.", "wrongAnswers": ["To show only differences", "To separate", "To divide"] },
+            { "word": "CONTRAST", "definition": "To show how things are different", "sentence": "The author contrasts city life with country life.", "wrongAnswers": ["To show similarities", "To make the same", "To match"] },
+            { "word": "DIALOGUE", "definition": "Conversation between characters", "sentence": "The dialogue in the play was funny and entertaining.", "wrongAnswers": ["The setting", "The background", "The scenery"] },
+            { "word": "FICTION", "definition": "Stories that are made up", "sentence": "Harry Potter is a work of fiction.", "wrongAnswers": ["True stories", "Real events", "History"] },
+            { "word": "GENRE", "definition": "A category or type of literature", "sentence": "Mystery is my favorite genre of books.", "wrongAnswers": ["A character", "A page number", "A library"] },
+            { "word": "METAPHOR", "definition": "Comparing two things without using like or as", "sentence": "Her smile is sunshine is a metaphor.", "wrongAnswers": ["A rhyming word", "A question", "A command"] },
+            { "word": "NARRATOR", "definition": "The person telling the story", "sentence": "The narrator in the book was a wise old owl.", "wrongAnswers": ["The villain", "The setting", "The ending"] },
+            { "word": "SEQUENCE", "definition": "The order in which things happen", "sentence": "The sequence of events in the story was confusing.", "wrongAnswers": ["The characters", "The mood", "The theme"] }
+          ]
+        },
+        {
+          "unitNumber": 6,
+          "unitName": "Thinking Skills",
+          "words": [
+            { "word": "ANALYZE", "definition": "To examine carefully and in detail", "sentence": "Scientists analyze data to find patterns.", "wrongAnswers": ["To ignore", "To guess", "To memorize"] },
+            { "word": "CALCULATE", "definition": "To figure out using math", "sentence": "Can you calculate the total cost of these items?", "wrongAnswers": ["To guess randomly", "To ignore numbers", "To estimate wildly"] },
+            { "word": "CONCLUDE", "definition": "To decide after thinking", "sentence": "From the evidence, we can conclude that it will rain.", "wrongAnswers": ["To begin", "To start", "To open"] },
+            { "word": "ELABORATE", "definition": "To give more details", "sentence": "Please elaborate on your answer with more examples.", "wrongAnswers": ["To simplify", "To shorten", "To summarize"] },
+            { "word": "EVALUATE", "definition": "To judge the value or quality", "sentence": "Teachers evaluate student work to assign grades.", "wrongAnswers": ["To ignore", "To copy", "To steal"] },
+            { "word": "HYPOTHESIS", "definition": "An educated guess that can be tested", "sentence": "My hypothesis is that plants grow faster with more sunlight.", "wrongAnswers": ["A proven fact", "A wild guess", "A lie"] },
+            { "word": "INFERENCE", "definition": "A conclusion based on evidence", "sentence": "From the muddy footprints, we can make an inference that someone walked through.", "wrongAnswers": ["A random guess", "A fact", "A question"] },
+            { "word": "STRATEGY", "definition": "A plan to achieve a goal", "sentence": "Our strategy for winning the game is to practice every day.", "wrongAnswers": ["Giving up", "No plan", "Random actions"] },
+            { "word": "SUMMARIZE", "definition": "To give the main points briefly", "sentence": "Can you summarize the story in one paragraph?", "wrongAnswers": ["To add more details", "To make longer", "To complicate"] },
+            { "word": "VALID", "definition": "Based on good reasoning", "sentence": "That is a valid point in the argument.", "wrongAnswers": ["Completely wrong", "Illogical", "Nonsensical"] }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 5,
+      "gradeName": "5th Grade",
+      "units": [
+        {
+          "unitNumber": 1,
+          "unitName": "Advanced Adjectives",
+          "words": [
+            { "word": "ARROGANT", "definition": "Acting superior to others", "sentence": "The arrogant student thought he was smarter than everyone else.", "wrongAnswers": ["Very humble", "Extremely modest", "Quite shy"] },
+            { "word": "BENEVOLENT", "definition": "Kind and generous", "sentence": "The benevolent woman donated money to help the homeless.", "wrongAnswers": ["Mean and cruel", "Selfish and greedy", "Unkind"] },
+            { "word": "CRUCIAL", "definition": "Extremely important", "sentence": "It is crucial to study for the final exam.", "wrongAnswers": ["Not important", "Completely optional", "Totally unnecessary"] },
+            { "word": "FORMIDABLE", "definition": "Inspiring fear or respect through being impressive", "sentence": "The chess champion was a formidable opponent.", "wrongAnswers": ["Very weak", "Easily defeated", "Not scary"] },
+            { "word": "HOSTILE", "definition": "Unfriendly or antagonistic", "sentence": "The hostile crowd booed the visiting team.", "wrongAnswers": ["Very friendly", "Extremely welcoming", "Quite warm"] },
+            { "word": "METICULOUS", "definition": "Very careful about details", "sentence": "The artist was meticulous in painting every tiny detail.", "wrongAnswers": ["Very careless", "Quite sloppy", "Really messy"] },
+            { "word": "OBSOLETE", "definition": "No longer used or useful", "sentence": "Typewriters are now obsolete since we have computers.", "wrongAnswers": ["Brand new", "Very modern", "Currently popular"] },
+            { "word": "RIGOROUS", "definition": "Extremely thorough and demanding", "sentence": "The rigorous training prepared the athletes for competition.", "wrongAnswers": ["Very easy", "Quite simple", "Not demanding"] },
+            { "word": "TRIVIAL", "definition": "Not important or significant", "sentence": "Don't worry about such trivial matters.", "wrongAnswers": ["Very important", "Extremely crucial", "Highly significant"] },
+            { "word": "VIVID", "definition": "Bright and clear", "sentence": "She had vivid memories of her childhood vacation.", "wrongAnswers": ["Unclear", "Fuzzy", "Vague"] }
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "unitName": "Sophisticated Verbs",
+          "words": [
+            { "word": "ADVOCATE", "definition": "To publicly support or recommend", "sentence": "Many scientists advocate for renewable energy.", "wrongAnswers": ["To oppose strongly", "To reject completely", "To discourage"] },
+            { "word": "COMMEMORATE", "definition": "To honor the memory of", "sentence": "We commemorate veterans on Memorial Day.", "wrongAnswers": ["To forget about", "To ignore", "To disrespect"] },
+            { "word": "CULTIVATE", "definition": "To grow or develop", "sentence": "Farmers cultivate crops in the spring.", "wrongAnswers": ["To destroy", "To neglect", "To abandon"] },
+            { "word": "DOMINATE", "definition": "To have control over", "sentence": "The basketball team dominated the tournament.", "wrongAnswers": ["To lose badly", "To surrender", "To give up"] },
+            { "word": "EXAGGERATE", "definition": "To make something seem larger or more important", "sentence": "Don't exaggerate the size of the fish you caught!", "wrongAnswers": ["To understate", "To minimize", "To downplay"] },
+            { "word": "IMMIGRATE", "definition": "To come to a new country to live", "sentence": "Many people immigrated to America seeking opportunity.", "wrongAnswers": ["To leave forever", "To visit briefly", "To stay home"] },
+            { "word": "JUSTIFY", "definition": "To show or prove to be right", "sentence": "Can you justify your answer with evidence?", "wrongAnswers": ["To admit wrong", "To apologize", "To confess"] },
+            { "word": "MANIPULATE", "definition": "To control or influence cleverly", "sentence": "The politician tried to manipulate public opinion.", "wrongAnswers": ["To be honest with", "To inform truthfully", "To respect"] },
+            { "word": "NEGOTIATE", "definition": "To discuss to reach an agreement", "sentence": "The two sides will negotiate a peace treaty.", "wrongAnswers": ["To refuse to talk", "To fight instead", "To ignore"] },
+            { "word": "STIMULATE", "definition": "To encourage activity or growth", "sentence": "Exercise stimulates blood circulation.", "wrongAnswers": ["To stop completely", "To slow down", "To prevent"] }
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "unitName": "Complex Ideas",
+          "words": [
+            { "word": "ALLEGIANCE", "definition": "Loyalty to a person, group, or cause", "sentence": "Citizens pledge allegiance to their country.", "wrongAnswers": ["Betrayal", "Disloyalty", "Opposition"] },
+            { "word": "COMPROMISE", "definition": "An agreement where both sides give up something", "sentence": "The compromise satisfied both parties in the dispute.", "wrongAnswers": ["Complete victory", "Total defeat", "No agreement"] },
+            { "word": "CONSEQUENCE", "definition": "A result of an action", "sentence": "Staying up late has the consequence of being tired.", "wrongAnswers": ["A cause", "A beginning", "An origin"] },
+            { "word": "LEGISLATION", "definition": "Laws made by a government", "sentence": "New legislation was passed to protect the environment.", "wrongAnswers": ["Breaking laws", "Ignoring rules", "Chaos"] },
+            { "word": "PERSPECTIVE", "definition": "A particular way of viewing things", "sentence": "From my perspective, the project is going well.", "wrongAnswers": ["A fact", "The only truth", "Absolute reality"] },
+            { "word": "PREVAIL", "definition": "To prove more powerful or superior", "sentence": "Justice will prevail in the end.", "wrongAnswers": ["To lose", "To fail", "To surrender"] },
+            { "word": "PROHIBIT", "definition": "To formally forbid something", "sentence": "The rules prohibit running in the hallways.", "wrongAnswers": ["To allow", "To encourage", "To permit"] },
+            { "word": "RELUCTANCE", "definition": "Unwillingness or hesitation", "sentence": "She showed reluctance to speak in public.", "wrongAnswers": ["Eagerness", "Willingness", "Enthusiasm"] },
+            { "word": "SIGNIFICANT", "definition": "Important or meaningful", "sentence": "Einstein made significant contributions to physics.", "wrongAnswers": ["Unimportant", "Meaningless", "Trivial"] },
+            { "word": "UNANIMOUS", "definition": "Agreed upon by everyone", "sentence": "The jury reached a unanimous decision.", "wrongAnswers": ["Divided", "Disagreeing", "Split"] }
+          ]
+        },
+        {
+          "unitNumber": 4,
+          "unitName": "Science & Discovery",
+          "words": [
+            { "word": "BUOYANT", "definition": "Able to float", "sentence": "The buoyant ball floated on the water's surface.", "wrongAnswers": ["Sinking", "Heavy", "Dense"] },
+            { "word": "COMBUSTION", "definition": "The process of burning", "sentence": "Combustion in the engine powers the car.", "wrongAnswers": ["Freezing", "Melting", "Cooling"] },
+            { "word": "CONSERVE", "definition": "To protect from waste or loss", "sentence": "We should conserve water during the drought.", "wrongAnswers": ["To waste", "To use up", "To deplete"] },
+            { "word": "EROSION", "definition": "The wearing away of soil or rock", "sentence": "Water erosion carved the canyon over millions of years.", "wrongAnswers": ["Building up", "Creating", "Constructing"] },
+            { "word": "HYPOTHESIS", "definition": "A testable prediction", "sentence": "The scientist tested her hypothesis through experiments.", "wrongAnswers": ["A proven fact", "A final answer", "A conclusion"] },
+            { "word": "PHOTOSYNTHESIS", "definition": "How plants make food using sunlight", "sentence": "Through photosynthesis, plants convert sunlight into energy.", "wrongAnswers": ["How animals eat", "How rocks form", "How water flows"] },
+            { "word": "RENEWABLE", "definition": "Able to be replaced naturally", "sentence": "Solar power is a renewable energy source.", "wrongAnswers": ["Running out", "Non-replaceable", "Finite"] },
+            { "word": "SEDIMENT", "definition": "Matter that settles at the bottom of liquid", "sentence": "Layers of sediment built up on the ocean floor.", "wrongAnswers": ["Floating material", "Gas", "Air"] },
+            { "word": "SPECIES", "definition": "A group of similar organisms", "sentence": "The endangered species needs protection.", "wrongAnswers": ["An individual animal", "A habitat", "A plant only"] },
+            { "word": "VELOCITY", "definition": "Speed in a given direction", "sentence": "The rocket reached maximum velocity after liftoff.", "wrongAnswers": ["Standing still", "No movement", "Slowness"] }
+          ]
+        },
+        {
+          "unitNumber": 5,
+          "unitName": "Literary Elements",
+          "words": [
+            { "word": "ALLITERATION", "definition": "Repeating the same sound at the start of words", "sentence": "Peter Piper picked a peck of pickled peppers is alliteration.", "wrongAnswers": ["Random words", "Silent reading", "Opposite meanings"] },
+            { "word": "CLIMAX", "definition": "The most exciting part of a story", "sentence": "The climax occurs when the hero faces the villain.", "wrongAnswers": ["The beginning", "The introduction", "The setting"] },
+            { "word": "FORESHADOWING", "definition": "Hints about what will happen later", "sentence": "The dark clouds were foreshadowing of the coming storm.", "wrongAnswers": ["Talking about the past", "Describing now", "Current events"] },
+            { "word": "IRONY", "definition": "When the opposite of what's expected happens", "sentence": "The irony was that the fire station burned down.", "wrongAnswers": ["What you expect", "Normal outcome", "Predictable result"] },
+            { "word": "PERSONIFICATION", "definition": "Giving human qualities to non-human things", "sentence": "The wind whispered through the trees is personification.", "wrongAnswers": ["Describing people", "Talking about animals", "Actual humans"] },
+            { "word": "PROTAGONIST", "definition": "The main character in a story", "sentence": "Harry Potter is the protagonist of his series.", "wrongAnswers": ["The villain", "A minor character", "The setting"] },
+            { "word": "RESOLUTION", "definition": "How a story's problems are solved", "sentence": "The resolution came when they found the treasure.", "wrongAnswers": ["The problem", "The conflict", "The beginning"] },
+            { "word": "SIMILE", "definition": "Comparing using like or as", "sentence": "Her hair was like silk is a simile.", "wrongAnswers": ["A statement of fact", "A question", "A command"] },
+            { "word": "SYMBOLISM", "definition": "Using objects to represent ideas", "sentence": "The dove is symbolism for peace.", "wrongAnswers": ["Literal meaning", "Actual object", "Nothing deeper"] },
+            { "word": "THEME", "definition": "The main message or lesson", "sentence": "The theme of the story is about courage.", "wrongAnswers": ["The plot", "The characters", "The setting"] }
+          ]
+        },
+        {
+          "unitNumber": 6,
+          "unitName": "Critical Thinking",
+          "words": [
+            { "word": "ABSTRACT", "definition": "Existing only as an idea", "sentence": "Love is an abstract concept you cannot touch.", "wrongAnswers": ["Something physical", "A real object", "Touchable"] },
+            { "word": "ASSUMPTION", "definition": "Something accepted as true without proof", "sentence": "Don't make assumptions without checking the facts.", "wrongAnswers": ["Proven fact", "Confirmed truth", "Verified data"] },
+            { "word": "BIAS", "definition": "Unfair preference for or against something", "sentence": "The judge showed bias by favoring one side.", "wrongAnswers": ["Complete fairness", "Total neutrality", "Perfect balance"] },
+            { "word": "CRITERIA", "definition": "Standards used to judge something", "sentence": "The criteria for winning include speed and accuracy.", "wrongAnswers": ["Random choices", "No standards", "Arbitrary picks"] },
+            { "word": "DEDUCE", "definition": "To figure out using logic", "sentence": "From the clues, we can deduce who the culprit is.", "wrongAnswers": ["To guess wildly", "To assume randomly", "To know magically"] },
+            { "word": "EVIDENCE", "definition": "Facts that prove something", "sentence": "The evidence showed that he was innocent.", "wrongAnswers": ["Opinions", "Guesses", "Feelings"] },
+            { "word": "OBJECTIVE", "definition": "Based on facts, not influenced by feelings", "sentence": "Try to give an objective evaluation of the situation.", "wrongAnswers": ["Based on emotions", "Personal feelings", "Biased opinion"] },
+            { "word": "PROBABILITY", "definition": "How likely something is to happen", "sentence": "The probability of rain today is high.", "wrongAnswers": ["Impossibility", "Certainty", "Absolute guarantee"] },
+            { "word": "SUBJECTIVE", "definition": "Based on personal feelings or opinions", "sentence": "Whether a movie is good is subjective.", "wrongAnswers": ["Based on facts only", "Purely objective", "Proven truth"] },
+            { "word": "SYNTHESIZE", "definition": "To combine parts to form a whole", "sentence": "Synthesize information from both articles in your essay.", "wrongAnswers": ["To separate", "To divide", "To break apart"] }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 6,
+      "gradeName": "6th Grade",
+      "units": [
+        {
+          "unitNumber": 1,
+          "unitName": "Powerful Descriptors",
+          "words": [
+            { "word": "ADAMANT", "definition": "Refusing to change one's mind", "sentence": "She was adamant about completing the project on time.", "wrongAnswers": ["Very flexible", "Easily swayed", "Quick to change"] },
+            { "word": "AMBIGUOUS", "definition": "Having more than one possible meaning", "sentence": "The ambiguous instructions confused everyone.", "wrongAnswers": ["Perfectly clear", "Totally obvious", "Completely direct"] },
+            { "word": "AUDACIOUS", "definition": "Showing a willingness to take bold risks", "sentence": "The audacious plan surprised everyone with its success.", "wrongAnswers": ["Very timid", "Extremely cautious", "Quite fearful"] },
+            { "word": "DILIGENT", "definition": "Showing careful and persistent work", "sentence": "The diligent student always completed homework thoroughly.", "wrongAnswers": ["Very lazy", "Quite careless", "Rather sloppy"] },
+            { "word": "ECCENTRIC", "definition": "Unconventional and slightly strange", "sentence": "The eccentric artist painted with unusual materials.", "wrongAnswers": ["Completely normal", "Totally conventional", "Perfectly ordinary"] },
+            { "word": "LUCID", "definition": "Clear and easy to understand", "sentence": "Her lucid explanation helped everyone grasp the concept.", "wrongAnswers": ["Very confusing", "Quite unclear", "Totally muddled"] },
+            { "word": "MUNDANE", "definition": "Ordinary and boring", "sentence": "The mundane tasks of daily life can feel repetitive.", "wrongAnswers": ["Very exciting", "Extremely interesting", "Quite thrilling"] },
+            { "word": "RUTHLESS", "definition": "Having no pity or compassion", "sentence": "The ruthless competitor would do anything to win.", "wrongAnswers": ["Very compassionate", "Extremely kind", "Quite merciful"] },
+            { "word": "SKEPTICAL", "definition": "Doubting or questioning", "sentence": "The scientist remained skeptical until seeing the evidence.", "wrongAnswers": ["Completely believing", "Totally trusting", "Fully convinced"] },
+            { "word": "VOLATILE", "definition": "Liable to change rapidly and unpredictably", "sentence": "The volatile weather made planning the picnic difficult.", "wrongAnswers": ["Very stable", "Completely predictable", "Totally consistent"] }
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "unitName": "Dynamic Actions",
+          "words": [
+            { "word": "ALLEVIATE", "definition": "To make suffering less severe", "sentence": "The medicine will alleviate your pain.", "wrongAnswers": ["To worsen", "To intensify", "To increase"] },
+            { "word": "COLLABORATE", "definition": "To work jointly with others", "sentence": "The teams will collaborate on the research project.", "wrongAnswers": ["To work alone", "To compete against", "To oppose"] },
+            { "word": "DIMINISH", "definition": "To make or become less", "sentence": "The storm's power will diminish as it moves inland.", "wrongAnswers": ["To increase", "To grow", "To expand"] },
+            { "word": "EMBARK", "definition": "To begin a journey or project", "sentence": "They will embark on an expedition to the Arctic.", "wrongAnswers": ["To finish", "To end", "To conclude"] },
+            { "word": "IMPLEMENT", "definition": "To put a plan into action", "sentence": "The school will implement new safety procedures.", "wrongAnswers": ["To cancel", "To abandon", "To ignore"] },
+            { "word": "IMPEDE", "definition": "To delay or block progress", "sentence": "Bad weather will impede our travel plans.", "wrongAnswers": ["To help", "To assist", "To facilitate"] },
+            { "word": "PERSEVERE", "definition": "To continue despite difficulties", "sentence": "You must persevere through challenges to succeed.", "wrongAnswers": ["To give up", "To quit", "To surrender"] },
+            { "word": "REFUTE", "definition": "To prove something wrong", "sentence": "The lawyer will refute the false accusation.", "wrongAnswers": ["To agree with", "To confirm", "To support"] },
+            { "word": "RELINQUISH", "definition": "To give up or let go of", "sentence": "The king had to relinquish his throne.", "wrongAnswers": ["To keep", "To hold onto", "To maintain"] },
+            { "word": "THRIVE", "definition": "To grow or develop well", "sentence": "Businesses that adapt to change will thrive.", "wrongAnswers": ["To fail", "To struggle", "To decline"] }
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "unitName": "Social Dynamics",
+          "words": [
+            { "word": "ADVERSARY", "definition": "An opponent or enemy", "sentence": "The chess player studied her adversary's strategies.", "wrongAnswers": ["A friend", "An ally", "A supporter"] },
+            { "word": "COHERENT", "definition": "Logical and consistent", "sentence": "Please present a coherent argument for your position.", "wrongAnswers": ["Confusing", "Illogical", "Inconsistent"] },
+            { "word": "INDIFFERENT", "definition": "Having no particular interest or sympathy", "sentence": "He remained indifferent to the outcome of the game.", "wrongAnswers": ["Very interested", "Deeply caring", "Highly concerned"] },
+            { "word": "INTEGRITY", "definition": "The quality of being honest and having strong morals", "sentence": "A leader with integrity earns respect.", "wrongAnswers": ["Dishonesty", "Corruption", "Deceit"] },
+            { "word": "NAIVE", "definition": "Lacking experience or sophistication", "sentence": "The naive tourist was easily tricked.", "wrongAnswers": ["Very experienced", "Quite sophisticated", "Highly cynical"] },
+            { "word": "PRESTIGE", "definition": "Respect and admiration", "sentence": "Winning the award brought prestige to the school.", "wrongAnswers": ["Shame", "Disgrace", "Dishonor"] },
+            { "word": "RESILIENT", "definition": "Able to recover quickly from difficulties", "sentence": "The resilient community rebuilt after the disaster.", "wrongAnswers": ["Very fragile", "Easily broken", "Quick to give up"] },
+            { "word": "SUBTLE", "definition": "Not obvious or noticeable", "sentence": "There was a subtle hint in her smile.", "wrongAnswers": ["Very obvious", "Completely clear", "Totally blatant"] },
+            { "word": "TENTATIVE", "definition": "Not certain or fixed", "sentence": "We made tentative plans to meet next week.", "wrongAnswers": ["Completely certain", "Totally fixed", "Absolutely definite"] },
+            { "word": "VIGILANT", "definition": "Keeping careful watch for danger", "sentence": "The guard remained vigilant throughout the night.", "wrongAnswers": ["Completely careless", "Totally inattentive", "Very distracted"] }
+          ]
+        },
+        {
+          "unitNumber": 4,
+          "unitName": "Academic Excellence",
+          "words": [
+            { "word": "CHRONOLOGICAL", "definition": "Arranged in order of time", "sentence": "List the events in chronological order.", "wrongAnswers": ["Random order", "Alphabetical order", "Size order"] },
+            { "word": "CITATION", "definition": "A reference to a source of information", "sentence": "Include a citation for every quote in your paper.", "wrongAnswers": ["An original idea", "A personal opinion", "A made-up fact"] },
+            { "word": "CORRELATION", "definition": "A mutual relationship between two things", "sentence": "There's a correlation between studying and good grades.", "wrongAnswers": ["No connection", "Complete separation", "Total independence"] },
+            { "word": "CREDIBLE", "definition": "Believable or trustworthy", "sentence": "Use credible sources for your research.", "wrongAnswers": ["Untrustworthy", "Unreliable", "Questionable"] },
+            { "word": "IMPERATIVE", "definition": "Of vital importance", "sentence": "It is imperative that you arrive on time.", "wrongAnswers": ["Not important", "Totally optional", "Completely unnecessary"] },
+            { "word": "PHENOMENON", "definition": "A remarkable or unusual occurrence", "sentence": "The Northern Lights are a natural phenomenon.", "wrongAnswers": ["Something ordinary", "Something common", "Something expected"] },
+            { "word": "PROVISIONAL", "definition": "Temporary and subject to change", "sentence": "The provisional schedule may be updated later.", "wrongAnswers": ["Completely permanent", "Totally final", "Absolutely fixed"] },
+            { "word": "QUALITATIVE", "definition": "Relating to quality rather than quantity", "sentence": "The qualitative analysis focused on experiences.", "wrongAnswers": ["About numbers only", "Purely statistical", "Just measurements"] },
+            { "word": "TANGIBLE", "definition": "Able to be touched or perceived", "sentence": "We need tangible evidence, not just theories.", "wrongAnswers": ["Completely imaginary", "Purely theoretical", "Totally abstract"] },
+            { "word": "UNBIASED", "definition": "Not influenced by personal feelings", "sentence": "A judge must remain unbiased during a trial.", "wrongAnswers": ["Very prejudiced", "Highly biased", "Quite partial"] }
+          ]
+        },
+        {
+          "unitNumber": 5,
+          "unitName": "Language Arts",
+          "words": [
+            { "word": "ALLEGORY", "definition": "A story with a hidden meaning", "sentence": "Animal Farm is an allegory about political power.", "wrongAnswers": ["A literal story", "A simple tale", "A factual account"] },
+            { "word": "ANTAGONIST", "definition": "The character who opposes the hero", "sentence": "Darth Vader is the antagonist in Star Wars.", "wrongAnswers": ["The hero", "The main character", "The good guy"] },
+            { "word": "CONCISE", "definition": "Giving information clearly and briefly", "sentence": "Write a concise summary of the chapter.", "wrongAnswers": ["Very wordy", "Extremely long", "Quite rambling"] },
+            { "word": "CONNOTATION", "definition": "The emotional meaning of a word", "sentence": "The word home has positive connotations of comfort.", "wrongAnswers": ["The dictionary definition", "The literal meaning", "The spelling"] },
+            { "word": "ELOQUENT", "definition": "Fluent and persuasive in speaking", "sentence": "The eloquent speaker moved the audience to tears.", "wrongAnswers": ["Unable to speak", "Very boring", "Quite inarticulate"] },
+            { "word": "INFERENCE", "definition": "A conclusion based on evidence and reasoning", "sentence": "Make an inference about the character's motives.", "wrongAnswers": ["A wild guess", "A random thought", "A stated fact"] },
+            { "word": "PARAPHRASE", "definition": "To restate something in different words", "sentence": "Paraphrase the author's main argument.", "wrongAnswers": ["To copy exactly", "To quote directly", "To memorize"] },
+            { "word": "RHETORIC", "definition": "The art of effective speaking or writing", "sentence": "The politician used rhetoric to persuade voters.", "wrongAnswers": ["Speaking poorly", "Writing badly", "Communicating unclearly"] },
+            { "word": "SATIRE", "definition": "Using humor to criticize or mock", "sentence": "The satire poked fun at political corruption.", "wrongAnswers": ["Serious drama", "Literal truth", "Direct criticism"] },
+            { "word": "TONE", "definition": "The author's attitude in writing", "sentence": "The tone of the essay was humorous and light.", "wrongAnswers": ["The topic", "The length", "The audience"] }
+          ]
+        },
+        {
+          "unitNumber": 6,
+          "unitName": "Complex Concepts",
+          "words": [
+            { "word": "ARBITRARY", "definition": "Based on random choice rather than reason", "sentence": "The arbitrary decision upset many people.", "wrongAnswers": ["Well reasoned", "Carefully planned", "Logically determined"] },
+            { "word": "AUTONOMY", "definition": "Independence and self-governance", "sentence": "The state gained autonomy from the central government.", "wrongAnswers": ["Complete dependence", "Total control by others", "No freedom"] },
+            { "word": "DISPARITY", "definition": "A great difference or inequality", "sentence": "There's a disparity in wealth between the two regions.", "wrongAnswers": ["Perfect equality", "Complete sameness", "Total similarity"] },
+            { "word": "FACILITATE", "definition": "To make an action easier", "sentence": "Technology can facilitate communication.", "wrongAnswers": ["To make harder", "To prevent", "To block"] },
+            { "word": "HIERARCHY", "definition": "A system ranked by status or authority", "sentence": "The company has a clear hierarchy of management.", "wrongAnswers": ["Complete equality", "No organization", "Random structure"] },
+            { "word": "INEVITABLE", "definition": "Certain to happen", "sentence": "Change is inevitable in life.", "wrongAnswers": ["Completely avoidable", "Totally preventable", "Easily stopped"] },
+            { "word": "INTUITION", "definition": "Understanding without conscious reasoning", "sentence": "Her intuition told her something was wrong.", "wrongAnswers": ["Logical proof", "Careful analysis", "Detailed reasoning"] },
+            { "word": "PARADOX", "definition": "A seemingly contradictory statement that may be true", "sentence": "It's a paradox that the more connected we are, the lonelier we feel.", "wrongAnswers": ["A simple truth", "An obvious fact", "A clear statement"] },
+            { "word": "PRECEDENT", "definition": "An earlier event that serves as an example", "sentence": "This case sets a precedent for future decisions.", "wrongAnswers": ["Something new", "No example", "First time ever"] },
+            { "word": "SUPPRESS", "definition": "To forcibly stop or prevent", "sentence": "The government tried to suppress the protest.", "wrongAnswers": ["To encourage", "To support", "To promote"] }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 7,
+      "gradeName": "7th Grade",
+      "units": [
+        {
+          "unitNumber": 1,
+          "unitName": "Sophisticated Language",
+          "words": [
+            { "word": "AMIABLE", "definition": "Friendly and pleasant", "sentence": "Her amiable personality made her popular with everyone.", "wrongAnswers": ["Unfriendly", "Hostile", "Unpleasant"] },
+            { "word": "ARID", "definition": "Extremely dry and lacking water", "sentence": "The arid desert receives less than 10 inches of rain yearly.", "wrongAnswers": ["Very wet", "Quite humid", "Extremely moist"] },
+            { "word": "BELLIGERENT", "definition": "Hostile and aggressive", "sentence": "The belligerent customer argued with the manager.", "wrongAnswers": ["Very peaceful", "Extremely calm", "Quite friendly"] },
+            { "word": "BREVITY", "definition": "Conciseness or shortness", "sentence": "The brevity of her speech surprised everyone.", "wrongAnswers": ["Great length", "Long duration", "Extended time"] },
+            { "word": "CANDOR", "definition": "Honesty and frankness", "sentence": "I appreciate your candor in discussing the problem.", "wrongAnswers": ["Dishonesty", "Deception", "Lying"] },
+            { "word": "DEFICIENT", "definition": "Lacking in some necessary quality", "sentence": "A diet deficient in vitamins can cause health problems.", "wrongAnswers": ["Completely adequate", "Fully sufficient", "Totally complete"] },
+            { "word": "DORMANT", "definition": "Temporarily inactive", "sentence": "The volcano has been dormant for centuries.", "wrongAnswers": ["Very active", "Constantly erupting", "Always moving"] },
+            { "word": "EXPLICIT", "definition": "Stated clearly and in detail", "sentence": "The teacher gave explicit instructions for the assignment.", "wrongAnswers": ["Very vague", "Quite unclear", "Totally ambiguous"] },
+            { "word": "FATHOM", "definition": "To understand or comprehend", "sentence": "I cannot fathom why he made that decision.", "wrongAnswers": ["To remain confused", "To not understand", "To be puzzled"] },
+            { "word": "GUISE", "definition": "An outward appearance that hides the truth", "sentence": "He approached under the guise of being helpful.", "wrongAnswers": ["True identity", "Real nature", "Actual self"] }
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "unitName": "Academic Vocabulary",
+          "words": [
+            { "word": "COHERENCE", "definition": "The quality of being logical and consistent", "sentence": "The essay lacked coherence and jumped between topics.", "wrongAnswers": ["Complete confusion", "Total chaos", "Utter disorder"] },
+            { "word": "COMPREHENSIVE", "definition": "Complete and including everything", "sentence": "The comprehensive exam covers all the material.", "wrongAnswers": ["Very incomplete", "Quite limited", "Highly selective"] },
+            { "word": "CONJECTURE", "definition": "An opinion based on incomplete information", "sentence": "Without evidence, that's mere conjecture.", "wrongAnswers": ["Proven fact", "Certain truth", "Confirmed reality"] },
+            { "word": "CUMULATIVE", "definition": "Increasing by successive additions", "sentence": "The cumulative effect of small changes can be significant.", "wrongAnswers": ["Decreasing", "Diminishing", "Reducing"] },
+            { "word": "DERIVATIVE", "definition": "Coming from another source", "sentence": "The movie was derivative of earlier films.", "wrongAnswers": ["Completely original", "Totally unique", "Entirely new"] },
+            { "word": "EMPIRICAL", "definition": "Based on observation or experience", "sentence": "Empirical evidence supports the scientific theory.", "wrongAnswers": ["Based on guessing", "Pure speculation", "Wild theory"] },
+            { "word": "NOMINAL", "definition": "Very small or in name only", "sentence": "They charged only a nominal fee for the service.", "wrongAnswers": ["Very large", "Extremely expensive", "Quite substantial"] },
+            { "word": "PRAGMATIC", "definition": "Practical rather than idealistic", "sentence": "We need a pragmatic solution to the problem.", "wrongAnswers": ["Completely impractical", "Totally idealistic", "Purely theoretical"] },
+            { "word": "QUANTITATIVE", "definition": "Relating to measurement of quantity", "sentence": "The quantitative data showed clear trends.", "wrongAnswers": ["About quality only", "Not measurable", "Purely descriptive"] },
+            { "word": "SUBSTANTIATE", "definition": "To provide evidence for", "sentence": "Can you substantiate your claims with facts?", "wrongAnswers": ["To disprove", "To contradict", "To deny"] }
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "unitName": "Character Traits",
+          "words": [
+            { "word": "AMBIVALENT", "definition": "Having mixed feelings", "sentence": "She felt ambivalent about moving to a new city.", "wrongAnswers": ["Completely certain", "Totally sure", "Absolutely decided"] },
+            { "word": "APATHETIC", "definition": "Showing no interest or enthusiasm", "sentence": "The apathetic student showed no concern for grades.", "wrongAnswers": ["Very enthusiastic", "Extremely interested", "Highly engaged"] },
+            { "word": "COMPLACENT", "definition": "Self-satisfied and unconcerned", "sentence": "Don't become complacent about your success.", "wrongAnswers": ["Very worried", "Extremely concerned", "Highly motivated"] },
+            { "word": "DOCILE", "definition": "Easily managed or taught", "sentence": "The docile horse was perfect for beginning riders.", "wrongAnswers": ["Very wild", "Extremely unruly", "Quite aggressive"] },
+            { "word": "FERVENT", "definition": "Having intense feeling", "sentence": "She was a fervent supporter of environmental causes.", "wrongAnswers": ["Very indifferent", "Completely apathetic", "Totally uncaring"] },
+            { "word": "INDOLENT", "definition": "Wanting to avoid activity or exertion", "sentence": "The indolent worker did the minimum required.", "wrongAnswers": ["Very hardworking", "Extremely diligent", "Quite industrious"] },
+            { "word": "METICULOUS", "definition": "Showing great attention to detail", "sentence": "The meticulous craftsman checked every measurement.", "wrongAnswers": ["Very careless", "Quite sloppy", "Rather hasty"] },
+            { "word": "PRUDENT", "definition": "Acting with care and thought for the future", "sentence": "It's prudent to save money for emergencies.", "wrongAnswers": ["Very reckless", "Quite careless", "Rather impulsive"] },
+            { "word": "TENACIOUS", "definition": "Holding firmly to something", "sentence": "The tenacious athlete never gave up despite injuries.", "wrongAnswers": ["Giving up easily", "Quitting quickly", "Surrendering readily"] },
+            { "word": "VINDICTIVE", "definition": "Seeking revenge", "sentence": "The vindictive ex-employee spread false rumors.", "wrongAnswers": ["Very forgiving", "Quite merciful", "Rather compassionate"] }
+          ]
+        },
+        {
+          "unitNumber": 4,
+          "unitName": "Complex Actions",
+          "words": [
+            { "word": "ACQUIESCE", "definition": "To accept reluctantly but without protest", "sentence": "She decided to acquiesce to their demands.", "wrongAnswers": ["To resist strongly", "To fight back", "To oppose loudly"] },
+            { "word": "CIRCUMVENT", "definition": "To find a way around", "sentence": "They tried to circumvent the regulations.", "wrongAnswers": ["To follow directly", "To obey completely", "To comply fully"] },
+            { "word": "CORROBORATE", "definition": "To confirm or support with evidence", "sentence": "The witness will corroborate his alibi.", "wrongAnswers": ["To contradict", "To deny", "To dispute"] },
+            { "word": "DISCERN", "definition": "To perceive or recognize", "sentence": "It's hard to discern the truth in this situation.", "wrongAnswers": ["To remain confused", "To misunderstand", "To overlook"] },
+            { "word": "EMANATE", "definition": "To come out from a source", "sentence": "A strange smell emanated from the laboratory.", "wrongAnswers": ["To go into", "To be absorbed", "To disappear"] },
+            { "word": "EVOKE", "definition": "To bring a feeling or memory to mind", "sentence": "The music evokes memories of my childhood.", "wrongAnswers": ["To forget", "To suppress", "To ignore"] },
+            { "word": "FABRICATE", "definition": "To invent or make up", "sentence": "Don't fabricate excuses for being late.", "wrongAnswers": ["To tell truth", "To be honest", "To state facts"] },
+            { "word": "MITIGATE", "definition": "To make less severe", "sentence": "Actions were taken to mitigate the damage.", "wrongAnswers": ["To worsen", "To intensify", "To aggravate"] },
+            { "word": "RECIPROCATE", "definition": "To respond to an action with a similar one", "sentence": "She reciprocated his kindness with a generous gift.", "wrongAnswers": ["To ignore", "To reject", "To refuse"] },
+            { "word": "SCRUTINIZE", "definition": "To examine closely and carefully", "sentence": "The auditor will scrutinize all financial records.", "wrongAnswers": ["To glance at", "To ignore", "To overlook"] }
+          ]
+        },
+        {
+          "unitNumber": 5,
+          "unitName": "Social & Political",
+          "words": [
+            { "word": "AUSTERITY", "definition": "Sternness or severity, especially in spending", "sentence": "The government implemented austerity measures.", "wrongAnswers": ["Lavish spending", "Generous giving", "Abundant resources"] },
+            { "word": "BUREAUCRACY", "definition": "A system of government with many departments", "sentence": "Navigating the bureaucracy can be frustrating.", "wrongAnswers": ["Simple system", "Direct action", "Quick process"] },
+            { "word": "COALITION", "definition": "An alliance for combined action", "sentence": "Several parties formed a coalition government.", "wrongAnswers": ["Individual action", "Solo effort", "Lone operation"] },
+            { "word": "EMBARGO", "definition": "An official ban on trade", "sentence": "The embargo prevented goods from entering the country.", "wrongAnswers": ["Free trade", "Open commerce", "Unrestricted exchange"] },
+            { "word": "ENUMERATE", "definition": "To mention items one by one", "sentence": "Please enumerate the reasons for your decision.", "wrongAnswers": ["To summarize generally", "To speak vaguely", "To be unclear"] },
+            { "word": "JURISDICTION", "definition": "The official power to make legal decisions", "sentence": "That case falls under federal jurisdiction.", "wrongAnswers": ["No authority", "Lack of power", "Outside control"] },
+            { "word": "LIBERALISM", "definition": "Support for individual rights and freedoms", "sentence": "Classical liberalism emphasizes personal liberty.", "wrongAnswers": ["Total control", "No freedom", "Complete restriction"] },
+            { "word": "RATIFY", "definition": "To give formal approval", "sentence": "Congress must ratify the treaty.", "wrongAnswers": ["To reject", "To veto", "To deny"] },
+            { "word": "SANCTION", "definition": "A threatened penalty for disobeying a law", "sentence": "Economic sanctions were imposed on the nation.", "wrongAnswers": ["A reward", "A benefit", "A prize"] },
+            { "word": "SOVEREIGNTY", "definition": "Supreme power or authority", "sentence": "The nation defended its sovereignty.", "wrongAnswers": ["Complete dependence", "Total submission", "Utter weakness"] }
+          ]
+        },
+        {
+          "unitNumber": 6,
+          "unitName": "Abstract Concepts",
+          "words": [
+            { "word": "ANOMALY", "definition": "Something that deviates from what is normal", "sentence": "The test result was an anomaly that required investigation.", "wrongAnswers": ["Completely normal", "Perfectly typical", "Totally expected"] },
+            { "word": "CATALYST", "definition": "Something that causes change or action", "sentence": "The protest was a catalyst for reform.", "wrongAnswers": ["A barrier", "An obstacle", "A preventer"] },
+            { "word": "DICHOTOMY", "definition": "A division into two contrasting parts", "sentence": "There's a dichotomy between his words and actions.", "wrongAnswers": ["Perfect agreement", "Complete unity", "Total harmony"] },
+            { "word": "ENIGMA", "definition": "Something mysterious and difficult to understand", "sentence": "The ancient artifact remains an enigma to scientists.", "wrongAnswers": ["Something obvious", "Something clear", "Something simple"] },
+            { "word": "FALLACY", "definition": "A mistaken belief based on unsound reasoning", "sentence": "That's a logical fallacy in your argument.", "wrongAnswers": ["Sound reasoning", "Valid logic", "Correct thinking"] },
+            { "word": "IDEOLOGY", "definition": "A system of ideas and ideals", "sentence": "Political ideology shapes policy decisions.", "wrongAnswers": ["Random thoughts", "No beliefs", "Lack of ideas"] },
+            { "word": "INTRINSIC", "definition": "Belonging naturally or essential", "sentence": "The intrinsic value of art goes beyond money.", "wrongAnswers": ["External", "Outside", "Added on"] },
+            { "word": "PARADIGM", "definition": "A typical example or pattern", "sentence": "This represents a paradigm shift in thinking.", "wrongAnswers": ["Something unusual", "An exception", "An oddity"] },
+            { "word": "SYNTHESIS", "definition": "The combination of parts into a whole", "sentence": "The essay is a synthesis of different theories.", "wrongAnswers": ["Complete separation", "Total division", "Pure isolation"] },
+            { "word": "VIABLE", "definition": "Capable of working successfully", "sentence": "We need a viable solution to the problem.", "wrongAnswers": ["Completely impossible", "Totally impractical", "Utterly unworkable"] }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 8,
+      "gradeName": "8th Grade",
+      "units": [
+        {
+          "unitNumber": 1,
+          "unitName": "Advanced Descriptors",
+          "words": [
+            { "word": "AFFLUENT", "definition": "Having a great deal of money or wealth", "sentence": "The affluent neighborhood featured large mansions.", "wrongAnswers": ["Very poor", "Quite impoverished", "Extremely needy"] },
+            { "word": "ARCHAIC", "definition": "Very old or outdated", "sentence": "The archaic language was difficult to understand.", "wrongAnswers": ["Brand new", "Very modern", "Completely current"] },
+            { "word": "AUSTERE", "definition": "Severe or strict in manner or appearance", "sentence": "The monastery had an austere lifestyle.", "wrongAnswers": ["Very luxurious", "Quite comfortable", "Extremely lavish"] },
+            { "word": "BANAL", "definition": "Boring and unoriginal", "sentence": "The banal movie followed a predictable formula.", "wrongAnswers": ["Highly original", "Very creative", "Quite innovative"] },
+            { "word": "CANDID", "definition": "Truthful and straightforward", "sentence": "I appreciate your candid feedback about my work.", "wrongAnswers": ["Very deceptive", "Quite dishonest", "Rather evasive"] },
+            { "word": "ENIGMATIC", "definition": "Mysterious and difficult to understand", "sentence": "The Mona Lisa's enigmatic smile fascinates viewers.", "wrongAnswers": ["Completely obvious", "Totally clear", "Perfectly simple"] },
+            { "word": "INDIGENOUS", "definition": "Originating naturally in a place", "sentence": "Kangaroos are indigenous to Australia.", "wrongAnswers": ["Foreign", "Imported", "Introduced"] },
+            { "word": "INDISPENSABLE", "definition": "Absolutely necessary", "sentence": "Clean water is indispensable for survival.", "wrongAnswers": ["Completely unnecessary", "Totally optional", "Quite expendable"] },
+            { "word": "OSTENTATIOUS", "definition": "Characterized by showy display", "sentence": "The ostentatious mansion was designed to impress.", "wrongAnswers": ["Very modest", "Quite humble", "Rather understated"] },
+            { "word": "PALPABLE", "definition": "So intense as to be almost touched or felt", "sentence": "The tension in the room was palpable.", "wrongAnswers": ["Completely imperceptible", "Totally invisible", "Quite subtle"] }
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "unitName": "Complex Actions",
+          "words": [
+            { "word": "ASSIMILATE", "definition": "To absorb and integrate", "sentence": "Immigrants often assimilate into their new culture.", "wrongAnswers": ["To reject completely", "To resist totally", "To oppose fully"] },
+            { "word": "CAPITULATE", "definition": "To surrender or give in", "sentence": "The army was forced to capitulate after the siege.", "wrongAnswers": ["To resist strongly", "To fight harder", "To continue battling"] },
+            { "word": "CONTEMPLATE", "definition": "To think about carefully", "sentence": "I need time to contemplate this difficult decision.", "wrongAnswers": ["To decide instantly", "To act impulsively", "To ignore completely"] },
+            { "word": "DIFFERENTIATE", "definition": "To recognize or show differences", "sentence": "Can you differentiate between these two species?", "wrongAnswers": ["To make identical", "To combine together", "To merge completely"] },
+            { "word": "ELUCIDATE", "definition": "To make something clear", "sentence": "Please elucidate your position on this matter.", "wrongAnswers": ["To confuse further", "To obscure more", "To complicate totally"] },
+            { "word": "EXACERBATE", "definition": "To make a problem worse", "sentence": "Stress can exacerbate health problems.", "wrongAnswers": ["To improve", "To fix", "To heal"] },
+            { "word": "PROCRASTINATE", "definition": "To delay or postpone action", "sentence": "Don't procrastinate on important assignments.", "wrongAnswers": ["To act immediately", "To do quickly", "To complete early"] },
+            { "word": "PROPAGATE", "definition": "To spread or promote", "sentence": "Plants propagate through seeds and cuttings.", "wrongAnswers": ["To eliminate", "To stop", "To prevent"] },
+            { "word": "REPUDIATE", "definition": "To refuse to accept or reject", "sentence": "The politician repudiated the false accusations.", "wrongAnswers": ["To accept fully", "To embrace completely", "To agree totally"] },
+            { "word": "SUPERSEDE", "definition": "To replace or take the place of", "sentence": "The new policy will supersede the old one.", "wrongAnswers": ["To support", "To maintain", "To preserve"] }
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "unitName": "Analytical Thinking",
+          "words": [
+            { "word": "AMBIGUOUS", "definition": "Open to more than one interpretation", "sentence": "The ambiguous statement could mean several things.", "wrongAnswers": ["Perfectly clear", "Totally obvious", "Completely unambiguous"] },
+            { "word": "CAUSATION", "definition": "The action of causing something", "sentence": "Scientists study the causation of diseases.", "wrongAnswers": ["The result only", "The effect alone", "The outcome merely"] },
+            { "word": "DEDUCTION", "definition": "The process of reasoning from general to specific", "sentence": "Through deduction, we solved the mystery.", "wrongAnswers": ["Random guessing", "Wild speculation", "Baseless assumption"] },
+            { "word": "IMPLICIT", "definition": "Implied though not directly expressed", "sentence": "There was an implicit understanding between them.", "wrongAnswers": ["Clearly stated", "Directly expressed", "Openly declared"] },
+            { "word": "INFER", "definition": "To deduce from evidence", "sentence": "From the clues, we can infer his intentions.", "wrongAnswers": ["To state directly", "To declare openly", "To express clearly"] },
+            { "word": "PLAUSIBLE", "definition": "Seeming reasonable or probable", "sentence": "That's a plausible explanation for the results.", "wrongAnswers": ["Completely impossible", "Totally unlikely", "Utterly unreasonable"] },
+            { "word": "PREMISE", "definition": "A statement assumed to be true", "sentence": "The argument rests on a false premise.", "wrongAnswers": ["A proven fact", "A final conclusion", "An end result"] },
+            { "word": "RAMIFICATION", "definition": "A consequence or result", "sentence": "Consider the ramifications of your decision.", "wrongAnswers": ["The beginning", "The cause", "The origin"] },
+            { "word": "CONJECTURE", "definition": "An opinion without sufficient evidence", "sentence": "Your theory is based on conjecture, not facts.", "wrongAnswers": ["Proven truth", "Verified fact", "Confirmed reality"] },
+            { "word": "VERIFY", "definition": "To make sure something is true", "sentence": "We need to verify the accuracy of this data.", "wrongAnswers": ["To assume falsely", "To guess randomly", "To believe blindly"] }
+          ]
+        },
+        {
+          "unitNumber": 4,
+          "unitName": "Literary Analysis",
+          "words": [
+            { "word": "ANTITHESIS", "definition": "The direct opposite", "sentence": "His calm demeanor was the antithesis of her anxiety.", "wrongAnswers": ["An exact match", "A perfect similarity", "A close resemblance"] },
+            { "word": "ARCHETYPE", "definition": "A typical example or model", "sentence": "The wise mentor is a common archetype in literature.", "wrongAnswers": ["A unique exception", "A rare oddity", "An unusual case"] },
+            { "word": "FOIL", "definition": "A character who contrasts with another", "sentence": "In the play, the joker serves as a foil to the king.", "wrongAnswers": ["An identical twin", "An exact copy", "A perfect match"] },
+            { "word": "HYPERBOLE", "definition": "Exaggerated statements not meant literally", "sentence": "I'm so hungry I could eat a horse is hyperbole.", "wrongAnswers": ["Literal truth", "Exact statement", "Precise description"] },
+            { "word": "JUXTAPOSITION", "definition": "Placing things side by side for contrast", "sentence": "The juxtaposition of wealth and poverty was striking.", "wrongAnswers": ["Keeping apart", "Separating completely", "Dividing totally"] },
+            { "word": "MOTIF", "definition": "A recurring theme or element", "sentence": "Light and darkness are motifs in the novel.", "wrongAnswers": ["A one-time event", "A single occurrence", "An isolated incident"] },
+            { "word": "SYNTAX", "definition": "The arrangement of words in sentences", "sentence": "The poet's unusual syntax created a unique rhythm.", "wrongAnswers": ["Word meaning", "Spelling rules", "Pronunciation"] },
+            { "word": "DICTION", "definition": "The choice and use of words", "sentence": "The author's diction reflects her background.", "wrongAnswers": ["Sentence length", "Paragraph structure", "Chapter organization"] },
+            { "word": "VERNACULAR", "definition": "The language of ordinary speech", "sentence": "The author wrote in the local vernacular.", "wrongAnswers": ["Formal language", "Academic writing", "Technical jargon"] },
+            { "word": "ALLEGORY", "definition": "A story with symbolic meaning", "sentence": "The allegory represented political struggle.", "wrongAnswers": ["A literal account", "A true story", "An exact report"] }
+          ]
+        },
+        {
+          "unitNumber": 5,
+          "unitName": "Social Studies",
+          "words": [
+            { "word": "AMENDMENTS", "definition": "Changes or additions to a document", "sentence": "The Bill of Rights includes the first ten amendments.", "wrongAnswers": ["Original text", "Initial draft", "First version"] },
+            { "word": "BICAMERAL", "definition": "Having two legislative chambers", "sentence": "Congress is a bicameral legislature with two houses.", "wrongAnswers": ["Single chamber", "One house", "Unified body"] },
+            { "word": "CONSTITUENTS", "definition": "Voters in a district", "sentence": "The senator listened to her constituents' concerns.", "wrongAnswers": ["Foreign citizens", "Non-voters", "Other nations"] },
+            { "word": "FEDERALISM", "definition": "Division of power between national and state", "sentence": "Federalism balances central and local authority.", "wrongAnswers": ["Total central control", "Complete local power", "Single authority"] },
+            { "word": "IMPERIALISM", "definition": "Extending power through colonization", "sentence": "European imperialism affected many countries.", "wrongAnswers": ["Granting independence", "Promoting freedom", "Encouraging autonomy"] },
+            { "word": "NULLIFY", "definition": "To make legally void", "sentence": "The court can nullify unconstitutional laws.", "wrongAnswers": ["To enforce", "To strengthen", "To support"] },
+            { "word": "RECESSION", "definition": "A period of economic decline", "sentence": "The recession caused widespread unemployment.", "wrongAnswers": ["Economic growth", "Financial boom", "Prosperity period"] },
+            { "word": "SEGREGATION", "definition": "The enforced separation of groups", "sentence": "School segregation was declared unconstitutional.", "wrongAnswers": ["Full integration", "Complete mixing", "Total unity"] },
+            { "word": "SUFFRAGE", "definition": "The right to vote", "sentence": "Women gained suffrage in 1920.", "wrongAnswers": ["Denial of rights", "Loss of freedom", "Restriction of liberty"] },
+            { "word": "TOTALITARIAN", "definition": "Exercising complete control", "sentence": "The totalitarian regime restricted all freedoms.", "wrongAnswers": ["Very democratic", "Completely free", "Totally open"] }
+          ]
+        },
+        {
+          "unitNumber": 6,
+          "unitName": "Scientific Concepts",
+          "words": [
+            { "word": "ADAPTATION", "definition": "A change to fit new conditions", "sentence": "Polar bears' thick fur is an adaptation to cold.", "wrongAnswers": ["Staying the same", "No change", "Complete stagnation"] },
+            { "word": "BIODIVERSITY", "definition": "Variety of life in an ecosystem", "sentence": "Rainforests have high biodiversity.", "wrongAnswers": ["Single species", "No variety", "Uniform life"] },
+            { "word": "CATALYST", "definition": "A substance that speeds reactions", "sentence": "Enzymes act as catalysts in the body.", "wrongAnswers": ["Something that slows", "A preventer", "An inhibitor"] },
+            { "word": "HYPOTHESIS", "definition": "A testable scientific prediction", "sentence": "The hypothesis was confirmed by experiments.", "wrongAnswers": ["Proven law", "Established fact", "Final truth"] },
+            { "word": "INERTIA", "definition": "Resistance to changes in motion", "sentence": "Inertia keeps objects moving at constant speed.", "wrongAnswers": ["Acceleration", "Speed increase", "Motion change"] },
+            { "word": "METABOLISM", "definition": "Chemical processes in living organisms", "sentence": "Exercise increases your metabolism.", "wrongAnswers": ["Physical growth", "Size increase", "Body expansion"] },
+            { "word": "MITOSIS", "definition": "Cell division producing identical cells", "sentence": "Mitosis allows organisms to grow and heal.", "wrongAnswers": ["Cell death", "Cell shrinking", "Cell fusion"] },
+            { "word": "OSMOSIS", "definition": "Movement of water through membranes", "sentence": "Osmosis helps plants absorb water from soil.", "wrongAnswers": ["Active transport", "Energy-driven movement", "Forced passage"] },
+            { "word": "SUSTAINABLE", "definition": "Able to be maintained long-term", "sentence": "We need sustainable energy sources.", "wrongAnswers": ["Quickly depleting", "Soon exhausted", "Rapidly ending"] },
+            { "word": "VARIABLES", "definition": "Factors that can change in experiments", "sentence": "Control all variables except the one being tested.", "wrongAnswers": ["Fixed constants", "Unchanging factors", "Stable elements"] }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 9,
+      "gradeName": "9th Grade",
+      "units": [
+        {
+          "unitNumber": 1,
+          "unitName": "High School Foundations",
+          "words": [
+            { "word": "AESTHETIC", "definition": "Concerned with beauty or art", "sentence": "The architect considered the aesthetic appeal of the building.", "wrongAnswers": ["Purely functional", "Only practical", "Solely utilitarian"] },
+            { "word": "COHERENT", "definition": "Logical and consistent", "sentence": "Present a coherent argument supported by evidence.", "wrongAnswers": ["Completely illogical", "Totally contradictory", "Utterly chaotic"] },
+            { "word": "CONDESCENDING", "definition": "Showing a superior attitude", "sentence": "His condescending tone offended the audience.", "wrongAnswers": ["Very respectful", "Quite humble", "Rather deferential"] },
+            { "word": "EXEMPLIFY", "definition": "To serve as a typical example", "sentence": "Her dedication exemplifies the team's spirit.", "wrongAnswers": ["To contradict", "To oppose", "To differ from"] },
+            { "word": "FORTUITOUS", "definition": "Happening by chance in a favorable way", "sentence": "Their meeting was fortuitous and led to collaboration.", "wrongAnswers": ["Carefully planned", "Deliberately arranged", "Intentionally organized"] },
+            { "word": "GREGARIOUS", "definition": "Fond of company and sociable", "sentence": "The gregarious student made friends easily.", "wrongAnswers": ["Very antisocial", "Quite isolated", "Rather withdrawn"] },
+            { "word": "IMPETUOUS", "definition": "Acting quickly without thought", "sentence": "The impetuous decision led to problems.", "wrongAnswers": ["Very cautious", "Quite deliberate", "Rather measured"] },
+            { "word": "INNOCUOUS", "definition": "Not harmful or offensive", "sentence": "The comment seemed innocuous but upset some people.", "wrongAnswers": ["Very harmful", "Quite dangerous", "Rather offensive"] },
+            { "word": "PRETENTIOUS", "definition": "Attempting to impress by affecting importance", "sentence": "The pretentious restaurant served tiny, expensive portions.", "wrongAnswers": ["Very modest", "Quite humble", "Rather unassuming"] },
+            { "word": "UBIQUITOUS", "definition": "Present everywhere", "sentence": "Smartphones have become ubiquitous in modern society.", "wrongAnswers": ["Very rare", "Quite scarce", "Rather uncommon"] }
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "unitName": "Critical Analysis",
+          "words": [
+            { "word": "ANACHRONISM", "definition": "Something out of its proper time", "sentence": "A wristwatch in a Shakespeare play would be an anachronism.", "wrongAnswers": ["Perfect timing", "Correct era", "Proper period"] },
+            { "word": "ARBITRARY", "definition": "Based on random choice rather than reason", "sentence": "The arbitrary rules seemed unfair to students.", "wrongAnswers": ["Well-reasoned", "Carefully justified", "Logically sound"] },
+            { "word": "BREVITY", "definition": "Concise expression", "sentence": "Brevity is the soul of wit, as the saying goes.", "wrongAnswers": ["Great length", "Extended discourse", "Prolonged speech"] },
+            { "word": "CONVOLUTED", "definition": "Extremely complex and difficult to follow", "sentence": "The convoluted plot confused many readers.", "wrongAnswers": ["Very simple", "Quite straightforward", "Rather clear"] },
+            { "word": "EPHEMERAL", "definition": "Lasting for a very short time", "sentence": "Fame can be ephemeral in the entertainment industry.", "wrongAnswers": ["Completely permanent", "Totally lasting", "Entirely enduring"] },
+            { "word": "ESOTERIC", "definition": "Intended for or understood by a small group", "sentence": "The professor's esoteric lecture confused most students.", "wrongAnswers": ["Widely understood", "Commonly known", "Generally accessible"] },
+            { "word": "EXPLICIT", "definition": "Stated clearly and in detail", "sentence": "The instructions were explicit and easy to follow.", "wrongAnswers": ["Very vague", "Quite implicit", "Rather unclear"] },
+            { "word": "IMPLICIT", "definition": "Suggested but not directly expressed", "sentence": "The implicit message was clear to careful readers.", "wrongAnswers": ["Directly stated", "Clearly expressed", "Openly declared"] },
+            { "word": "LUCID", "definition": "Expressed clearly and easy to understand", "sentence": "Her lucid writing style made complex ideas accessible.", "wrongAnswers": ["Very confusing", "Quite obscure", "Rather muddled"] },
+            { "word": "METICULOUS", "definition": "Showing great attention to detail", "sentence": "The meticulous researcher checked every source.", "wrongAnswers": ["Very careless", "Quite sloppy", "Rather haphazard"] }
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "unitName": "Social Dynamics",
+          "words": [
+            { "word": "ALOOF", "definition": "Not friendly or forthcoming", "sentence": "He remained aloof from the social activities.", "wrongAnswers": ["Very friendly", "Quite warm", "Rather approachable"] },
+            { "word": "ALTRUISTIC", "definition": "Showing selfless concern for others", "sentence": "Her altruistic work helped many people.", "wrongAnswers": ["Completely selfish", "Totally self-centered", "Utterly egotistical"] },
+            { "word": "BENIGN", "definition": "Gentle and kindly", "sentence": "The benign ruler was loved by his people.", "wrongAnswers": ["Very harsh", "Quite cruel", "Rather malicious"] },
+            { "word": "COMPLACENT", "definition": "Showing smug satisfaction", "sentence": "Don't become complacent about your achievements.", "wrongAnswers": ["Very worried", "Quite anxious", "Rather concerned"] },
+            { "word": "CONTEMPTUOUS", "definition": "Showing scorn or disrespect", "sentence": "His contemptuous attitude alienated colleagues.", "wrongAnswers": ["Very respectful", "Quite admiring", "Rather deferential"] },
+            { "word": "ELOQUENT", "definition": "Fluent and persuasive in speaking or writing", "sentence": "The eloquent speech moved the audience to tears.", "wrongAnswers": ["Very inarticulate", "Quite tongue-tied", "Rather incoherent"] },
+            { "word": "EMPATHY", "definition": "The ability to understand others' feelings", "sentence": "Empathy is essential for building relationships.", "wrongAnswers": ["Complete indifference", "Total apathy", "Utter coldness"] },
+            { "word": "FRUGAL", "definition": "Sparing or economical", "sentence": "The frugal shopper always looked for deals.", "wrongAnswers": ["Very wasteful", "Quite extravagant", "Rather lavish"] },
+            { "word": "PROVINCIAL", "definition": "Narrow-minded or unsophisticated", "sentence": "His provincial views prevented him from understanding.", "wrongAnswers": ["Very cosmopolitan", "Quite worldly", "Rather sophisticated"] },
+            { "word": "TACTFUL", "definition": "Having skill in dealing with delicate situations", "sentence": "She gave tactful criticism that didn't offend.", "wrongAnswers": ["Very blunt", "Quite insensitive", "Rather crude"] }
+          ]
+        },
+        {
+          "unitNumber": 4,
+          "unitName": "Literary Mastery",
+          "words": [
+            { "word": "ANECDOTE", "definition": "A short amusing or interesting story", "sentence": "The speaker opened with an anecdote about his childhood.", "wrongAnswers": ["A long novel", "A factual report", "A data analysis"] },
+            { "word": "DIDACTIC", "definition": "Intended to teach or instruct", "sentence": "The didactic novel conveyed a moral lesson.", "wrongAnswers": ["Purely entertaining", "Just amusing", "Only fun"] },
+            { "word": "ELOQUENCE", "definition": "Fluent and persuasive speech", "sentence": "His eloquence won over the skeptical audience.", "wrongAnswers": ["Poor speaking", "Weak communication", "Bad articulation"] },
+            { "word": "EXPOSITION", "definition": "Background information in a story", "sentence": "The exposition introduced the characters and setting.", "wrongAnswers": ["The conclusion", "The climax", "The resolution"] },
+            { "word": "GENRE", "definition": "A category of artistic work", "sentence": "Science fiction is her favorite genre.", "wrongAnswers": ["A single book", "One author", "A specific character"] },
+            { "word": "IMAGERY", "definition": "Visually descriptive language", "sentence": "The poet's imagery painted vivid mental pictures.", "wrongAnswers": ["Plain statements", "Simple facts", "Direct assertions"] },
+            { "word": "METAPHOR", "definition": "A figure of speech comparing two unlike things", "sentence": "Time is money is a common metaphor.", "wrongAnswers": ["A literal statement", "An exact description", "A factual claim"] },
+            { "word": "PARODY", "definition": "An imitation that mocks the original", "sentence": "The parody exaggerated the movie's flaws.", "wrongAnswers": ["Serious tribute", "Respectful homage", "Sincere imitation"] },
+            { "word": "SATIRE", "definition": "Using humor to expose and criticize", "sentence": "The satire mocked political corruption.", "wrongAnswers": ["Serious documentary", "Factual report", "Literal description"] },
+            { "word": "SYMBOLISM", "definition": "Use of symbols to represent ideas", "sentence": "The white whale is rich in symbolism.", "wrongAnswers": ["Literal meaning", "Plain description", "Direct statement"] }
+          ]
+        },
+        {
+          "unitNumber": 5,
+          "unitName": "Science & Mathematics",
+          "words": [
+            { "word": "ANALYZE", "definition": "To examine in detail", "sentence": "Scientists analyze data to find patterns.", "wrongAnswers": ["To ignore completely", "To overlook totally", "To disregard entirely"] },
+            { "word": "COEFFICIENT", "definition": "A numerical factor in an algebraic term", "sentence": "In 3x, the coefficient is 3.", "wrongAnswers": ["The variable", "The exponent", "The constant"] },
+            { "word": "CORRELATE", "definition": "To have a mutual relationship", "sentence": "Study time tends to correlate with test scores.", "wrongAnswers": ["To be completely unrelated", "To have no connection", "To be totally independent"] },
+            { "word": "EXPONENTIAL", "definition": "Becoming more rapid in proportion", "sentence": "The population showed exponential growth.", "wrongAnswers": ["Linear change", "Constant rate", "Steady increase"] },
+            { "word": "HYPOTHESIS", "definition": "A proposed explanation for testing", "sentence": "The scientist tested her hypothesis through experiments.", "wrongAnswers": ["A proven fact", "An established law", "A confirmed theory"] },
+            { "word": "INHERENT", "definition": "Existing as an essential characteristic", "sentence": "Risk is inherent in any investment.", "wrongAnswers": ["Added externally", "Put in later", "Applied from outside"] },
+            { "word": "PROTOCOL", "definition": "An official procedure or system", "sentence": "Follow the laboratory protocol exactly.", "wrongAnswers": ["Random method", "Chaotic approach", "Disorganized way"] },
+            { "word": "RATIO", "definition": "The relationship between two quantities", "sentence": "The ratio of boys to girls was 2 to 1.", "wrongAnswers": ["The sum", "The difference", "The average"] },
+            { "word": "THEOREM", "definition": "A mathematical statement proven true", "sentence": "The Pythagorean theorem applies to right triangles.", "wrongAnswers": ["An unproven guess", "A random idea", "A wild conjecture"] },
+            { "word": "VARIABLE", "definition": "A factor that can change", "sentence": "Temperature is an important variable in the experiment.", "wrongAnswers": ["A fixed constant", "An unchanging factor", "A stable element"] }
+          ]
+        },
+        {
+          "unitNumber": 6,
+          "unitName": "History & Government",
+          "words": [
+            { "word": "AMENDMENT", "definition": "A change to a constitution or law", "sentence": "The First Amendment protects free speech.", "wrongAnswers": ["Original text", "Initial version", "First draft"] },
+            { "word": "CONSTITUTIONAL", "definition": "In accordance with a constitution", "sentence": "The law was ruled constitutional by the court.", "wrongAnswers": ["Clearly illegal", "Obviously unlawful", "Definitely forbidden"] },
+            { "word": "DIPLOMACY", "definition": "Managing international relations", "sentence": "Diplomacy can prevent conflicts between nations.", "wrongAnswers": ["Military force", "Armed conflict", "Physical warfare"] },
+            { "word": "EMBARGO", "definition": "A ban on trade with a country", "sentence": "The embargo restricted imports and exports.", "wrongAnswers": ["Free trade", "Open commerce", "Unrestricted exchange"] },
+            { "word": "IDEOLOGY", "definition": "A system of ideas and ideals", "sentence": "Political ideology shapes policy decisions.", "wrongAnswers": ["No beliefs", "Lack of ideas", "Absence of principles"] },
+            { "word": "JURISDICTION", "definition": "The power to make legal decisions", "sentence": "Federal courts have jurisdiction over certain cases.", "wrongAnswers": ["No authority", "Lack of power", "Absence of control"] },
+            { "word": "RATIFY", "definition": "To formally approve", "sentence": "States must ratify constitutional amendments.", "wrongAnswers": ["To reject", "To veto", "To deny"] },
+            { "word": "REFORM", "definition": "Make changes to improve something", "sentence": "The reform movement sought to end corruption.", "wrongAnswers": ["Keep unchanged", "Maintain status quo", "Preserve as is"] },
+            { "word": "SOVEREIGNTY", "definition": "Supreme power or authority", "sentence": "Nations value their sovereignty.", "wrongAnswers": ["Complete dependence", "Total submission", "Utter powerlessness"] },
+            { "word": "VETO", "definition": "The right to reject a decision", "sentence": "The president can veto legislation.", "wrongAnswers": ["To approve", "To accept", "To ratify"] }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "gradeName": "10th Grade",
+      "units": [
+        {
+          "unitNumber": 1,
+          "unitName": "Advanced Vocabulary",
+          "words": [
+            { "word": "ACUMEN", "definition": "The ability to make good judgments quickly", "sentence": "Her business acumen led to the company's success.", "wrongAnswers": ["Poor judgment", "Bad decisions", "Weak thinking"] },
+            { "word": "ANACHRONISTIC", "definition": "Belonging to a different time period", "sentence": "Using a typewriter seems anachronistic today.", "wrongAnswers": ["Very modern", "Completely current", "Totally contemporary"] },
+            { "word": "ANTIPATHY", "definition": "A deep-seated feeling of aversion", "sentence": "He felt antipathy toward dishonest people.", "wrongAnswers": ["Great love", "Strong attraction", "Deep affection"] },
+            { "word": "CAUSTIC", "definition": "Severely critical or sarcastic", "sentence": "Her caustic comments hurt his feelings.", "wrongAnswers": ["Very kind", "Quite gentle", "Rather sweet"] },
+            { "word": "CIRCUMSPECT", "definition": "Wary and unwilling to take risks", "sentence": "The circumspect investor avoided risky ventures.", "wrongAnswers": ["Very reckless", "Quite careless", "Rather impulsive"] },
+            { "word": "COPIOUS", "definition": "Abundant in supply or quantity", "sentence": "The author took copious notes during research.", "wrongAnswers": ["Very scarce", "Quite limited", "Rather sparse"] },
+            { "word": "CREDULITY", "definition": "A tendency to believe too readily", "sentence": "His credulity made him easy to deceive.", "wrongAnswers": ["Complete skepticism", "Total distrust", "Utter doubt"] },
+            { "word": "ELICIT", "definition": "To draw out a response or reaction", "sentence": "The question elicited strong opinions.", "wrongAnswers": ["To suppress", "To prevent", "To stop"] },
+            { "word": "ERUDITE", "definition": "Having or showing great knowledge", "sentence": "The erudite professor impressed students with her expertise.", "wrongAnswers": ["Very ignorant", "Quite uneducated", "Rather uninformed"] },
+            { "word": "FACETIOUS", "definition": "Treating serious issues with humor", "sentence": "His facetious remarks seemed inappropriate.", "wrongAnswers": ["Very serious", "Quite solemn", "Rather grave"] }
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "unitName": "Rhetorical Devices",
+          "words": [
+            { "word": "ALLUSION", "definition": "An indirect reference to something", "sentence": "The poem contains an allusion to Greek mythology.", "wrongAnswers": ["A direct statement", "An explicit mention", "A clear reference"] },
+            { "word": "EUPHEMISM", "definition": "A mild expression substituted for a harsh one", "sentence": "Passed away is a euphemism for died.", "wrongAnswers": ["A harsh phrase", "A blunt term", "A direct word"] },
+            { "word": "HYPERBOLE", "definition": "Exaggerated statements for effect", "sentence": "I've told you a million times is hyperbole.", "wrongAnswers": ["Literal truth", "Exact statement", "Precise fact"] },
+            { "word": "LITOTES", "definition": "Ironic understatement using negation", "sentence": "Not bad is litotes meaning quite good.", "wrongAnswers": ["Exaggeration", "Overstatement", "Hyperbole"] },
+            { "word": "OXYMORON", "definition": "Contradictory terms appearing together", "sentence": "Deafening silence is an oxymoron.", "wrongAnswers": ["Consistent phrase", "Logical pairing", "Harmonious terms"] },
+            { "word": "PARADOX", "definition": "A seemingly contradictory statement that may be true", "sentence": "Less is more is a well-known paradox.", "wrongAnswers": ["A simple truth", "An obvious fact", "A clear statement"] },
+            { "word": "PATHOS", "definition": "A quality that evokes pity or sadness", "sentence": "The speech was full of pathos and moved the audience.", "wrongAnswers": ["Pure logic", "Cold reason", "Dry facts"] },
+            { "word": "RHETORIC", "definition": "The art of effective persuasive speaking", "sentence": "Politicians often use rhetoric to sway voters.", "wrongAnswers": ["Poor communication", "Weak speaking", "Bad writing"] },
+            { "word": "UNDERSTATEMENT", "definition": "Presenting something as less important", "sentence": "Calling a hurricane a bit of wind is understatement.", "wrongAnswers": ["Exaggeration", "Overstatement", "Amplification"] },
+            { "word": "VERISIMILITUDE", "definition": "The appearance of being true or real", "sentence": "The novel's verisimilitude made it believable.", "wrongAnswers": ["Complete fantasy", "Total unreality", "Utter impossibility"] }
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "unitName": "Philosophy & Ethics",
+          "words": [
+            { "word": "ALTRUISM", "definition": "Selfless concern for the well-being of others", "sentence": "Her altruism inspired others to volunteer.", "wrongAnswers": ["Pure selfishness", "Total greed", "Complete self-interest"] },
+            { "word": "EMPIRICISM", "definition": "The theory that knowledge comes from experience", "sentence": "Empiricism emphasizes observation and experimentation.", "wrongAnswers": ["Pure theory", "Abstract thought", "Innate knowledge"] },
+            { "word": "EXISTENTIALISM", "definition": "A philosophy emphasizing individual existence", "sentence": "Existentialism focuses on personal freedom and choice.", "wrongAnswers": ["Determinism", "Fatalism", "Predestination"] },
+            { "word": "HEDONISM", "definition": "The pursuit of pleasure as the highest good", "sentence": "Ancient hedonism valued sensory enjoyment.", "wrongAnswers": ["Asceticism", "Self-denial", "Abstinence"] },
+            { "word": "NIHILISM", "definition": "The rejection of moral principles", "sentence": "Nihilism denies inherent meaning in existence.", "wrongAnswers": ["Strong morality", "Clear purpose", "Definite meaning"] },
+            { "word": "PRAGMATISM", "definition": "A practical approach to problems", "sentence": "Pragmatism values what works in practice.", "wrongAnswers": ["Pure idealism", "Complete theory", "Abstract philosophy"] },
+            { "word": "RATIONALISM", "definition": "Reliance on reason rather than experience", "sentence": "Rationalism emphasizes logical deduction.", "wrongAnswers": ["Pure emotion", "Only feelings", "Just instinct"] },
+            { "word": "RELATIVISM", "definition": "The idea that truth varies by perspective", "sentence": "Cultural relativism recognizes different value systems.", "wrongAnswers": ["Absolute truth", "Universal values", "Fixed morality"] },
+            { "word": "SKEPTICISM", "definition": "A doubting attitude toward knowledge claims", "sentence": "Skepticism questions assumptions and beliefs.", "wrongAnswers": ["Blind faith", "Complete trust", "Total belief"] },
+            { "word": "UTILITARIANISM", "definition": "The idea that actions should produce the greatest good", "sentence": "Utilitarianism seeks the most happiness for the most people.", "wrongAnswers": ["Individual pleasure", "Personal gain", "Selfish benefit"] }
+          ]
+        },
+        {
+          "unitNumber": 4,
+          "unitName": "Scientific Method",
+          "words": [
+            { "word": "CALIBRATE", "definition": "To adjust precisely for accuracy", "sentence": "Scientists calibrate instruments before experiments.", "wrongAnswers": ["To break", "To damage", "To misadjust"] },
+            { "word": "CONTROL", "definition": "A standard for comparison in experiments", "sentence": "The control group received no treatment.", "wrongAnswers": ["The variable", "The change", "The alteration"] },
+            { "word": "EMPIRICAL", "definition": "Based on observation or experiment", "sentence": "Empirical evidence supports the hypothesis.", "wrongAnswers": ["Pure theory", "Just guessing", "Only speculation"] },
+            { "word": "EXTRAPOLATE", "definition": "To extend conclusions beyond data", "sentence": "We can extrapolate future trends from current data.", "wrongAnswers": ["To stay within limits", "To avoid conclusions", "To ignore data"] },
+            { "word": "METHODOLOGY", "definition": "A system of methods used in study", "sentence": "The research methodology was clearly explained.", "wrongAnswers": ["Random approach", "No system", "Chaotic method"] },
+            { "word": "OBJECTIVE", "definition": "Not influenced by personal feelings", "sentence": "Scientists strive for objective analysis.", "wrongAnswers": ["Highly biased", "Very subjective", "Quite prejudiced"] },
+            { "word": "PLACEBO", "definition": "An inactive substance used as a control", "sentence": "The placebo group showed no improvement.", "wrongAnswers": ["Active medicine", "Real treatment", "Actual drug"] },
+            { "word": "REPLICATE", "definition": "To repeat an experiment to verify results", "sentence": "Other scientists must replicate the findings.", "wrongAnswers": ["To do once only", "To never repeat", "To avoid checking"] },
+            { "word": "STATISTICALLY SIGNIFICANT", "definition": "Results unlikely due to chance", "sentence": "The results were statistically significant.", "wrongAnswers": ["Random chance", "Purely accidental", "Just luck"] },
+            { "word": "THEORETICAL", "definition": "Based on theory rather than practice", "sentence": "The theoretical model needs experimental testing.", "wrongAnswers": ["Already proven", "Completely practical", "Fully demonstrated"] }
+          ]
+        },
+        {
+          "unitNumber": 5,
+          "unitName": "World History",
+          "words": [
+            { "word": "ABSOLUTISM", "definition": "A system where ruler has unlimited power", "sentence": "Absolutism characterized many European monarchies.", "wrongAnswers": ["Democracy", "Republic", "Limited government"] },
+            { "word": "COLONIALISM", "definition": "Control by one nation over dependent areas", "sentence": "European colonialism affected many continents.", "wrongAnswers": ["Independence", "Autonomy", "Self-rule"] },
+            { "word": "ENLIGHTENMENT", "definition": "An intellectual movement emphasizing reason", "sentence": "The Enlightenment influenced modern democracy.", "wrongAnswers": ["Medieval period", "Dark ages", "Age of ignorance"] },
+            { "word": "FEUDALISM", "definition": "A medieval system of land ownership", "sentence": "Feudalism structured medieval European society.", "wrongAnswers": ["Modern capitalism", "Current democracy", "Contemporary system"] },
+            { "word": "INDUSTRIALIZATION", "definition": "Development of industries in a country", "sentence": "Industrialization transformed economies and societies.", "wrongAnswers": ["Agrarian life", "Rural economy", "Farm-based system"] },
+            { "word": "NATIONALISM", "definition": "Loyalty and devotion to one's nation", "sentence": "Nationalism contributed to World War I.", "wrongAnswers": ["Internationalism", "Globalism", "Universalism"] },
+            { "word": "PROPAGANDA", "definition": "Information used to promote a political view", "sentence": "Governments used propaganda during wartime.", "wrongAnswers": ["Objective facts", "Unbiased news", "Neutral information"] },
+            { "word": "RENAISSANCE", "definition": "A period of cultural rebirth in Europe", "sentence": "The Renaissance saw advances in art and science.", "wrongAnswers": ["Dark Ages", "Medieval period", "Time of decline"] },
+            { "word": "TOTALITARIANISM", "definition": "A system of total governmental control", "sentence": "Totalitarianism crushes individual freedoms.", "wrongAnswers": ["Full democracy", "Complete freedom", "Total liberty"] },
+            { "word": "WESTERNIZATION", "definition": "Adoption of Western culture", "sentence": "Westernization spread globally in the 20th century.", "wrongAnswers": ["Traditional culture", "Local customs", "Indigenous ways"] }
+          ]
+        },
+        {
+          "unitNumber": 6,
+          "unitName": "Economics",
+          "words": [
+            { "word": "CAPITALISM", "definition": "An economic system based on private ownership", "sentence": "Capitalism relies on free markets and competition.", "wrongAnswers": ["Pure socialism", "Complete communism", "Total state control"] },
+            { "word": "COMMODITY", "definition": "A raw material or agricultural product", "sentence": "Oil is a valuable commodity in world markets.", "wrongAnswers": ["A finished product", "A service", "A luxury item"] },
+            { "word": "DEPRESSION", "definition": "A severe and prolonged economic downturn", "sentence": "The Great Depression lasted through the 1930s.", "wrongAnswers": ["Economic boom", "Financial prosperity", "Market surge"] },
+            { "word": "EQUILIBRIUM", "definition": "A state of balance between supply and demand", "sentence": "The market reached equilibrium at that price.", "wrongAnswers": ["Complete chaos", "Total imbalance", "Utter disorder"] },
+            { "word": "FISCAL", "definition": "Relating to government revenue and spending", "sentence": "Fiscal policy affects economic growth.", "wrongAnswers": ["Personal finance", "Individual budgets", "Private spending"] },
+            { "word": "INFLATION", "definition": "A general increase in prices", "sentence": "High inflation reduces purchasing power.", "wrongAnswers": ["Falling prices", "Price decreases", "Deflation"] },
+            { "word": "MONOPOLY", "definition": "Exclusive control of a commodity or service", "sentence": "The monopoly eliminated competition.", "wrongAnswers": ["Perfect competition", "Many competitors", "Free market"] },
+            { "word": "RECESSION", "definition": "A period of temporary economic decline", "sentence": "The recession led to job losses.", "wrongAnswers": ["Economic growth", "Expansion period", "Boom time"] },
+            { "word": "SUBSIDY", "definition": "Financial support from the government", "sentence": "The subsidy helped farmers stay in business.", "wrongAnswers": ["A tax", "A fine", "A penalty"] },
+            { "word": "TARIFF", "definition": "A tax on imported goods", "sentence": "The tariff protected domestic industries.", "wrongAnswers": ["Free trade", "No taxes", "Import subsidy"] }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "gradeName": "11th Grade",
+      "units": [
+        {
+          "unitNumber": 1,
+          "unitName": "College Prep Vocabulary",
+          "words": [
+            { "word": "ACQUIESCE", "definition": "To accept something reluctantly", "sentence": "She decided to acquiesce to their demands.", "wrongAnswers": ["To resist strongly", "To fight vigorously", "To oppose forcefully"] },
+            { "word": "AMBIGUOUS", "definition": "Open to multiple interpretations", "sentence": "The ambiguous statement confused everyone.", "wrongAnswers": ["Perfectly clear", "Totally obvious", "Completely explicit"] },
+            { "word": "CAPRICIOUS", "definition": "Given to sudden changes of mood", "sentence": "The capricious weather ruined our plans.", "wrongAnswers": ["Very predictable", "Quite consistent", "Rather stable"] },
+            { "word": "DISPARAGE", "definition": "To regard or represent as being of little worth", "sentence": "Don't disparage others' accomplishments.", "wrongAnswers": ["To praise highly", "To compliment greatly", "To admire deeply"] },
+            { "word": "ENIGMA", "definition": "A person or thing that is mysterious", "sentence": "The ancient text remains an enigma to scholars.", "wrongAnswers": ["Something obvious", "Something clear", "Something simple"] },
+            { "word": "IMPERTINENT", "definition": "Not showing proper respect", "sentence": "The impertinent question offended the speaker.", "wrongAnswers": ["Very respectful", "Quite polite", "Rather courteous"] },
+            { "word": "JUXTAPOSE", "definition": "To place side by side for contrast", "sentence": "The author juxtaposed wealth and poverty.", "wrongAnswers": ["To keep separate", "To divide completely", "To isolate totally"] },
+            { "word": "LOQUACIOUS", "definition": "Tending to talk a great deal", "sentence": "The loquacious guest dominated the conversation.", "wrongAnswers": ["Very quiet", "Quite taciturn", "Rather silent"] },
+            { "word": "NEFARIOUS", "definition": "Wicked or criminal", "sentence": "The nefarious plot was discovered in time.", "wrongAnswers": ["Very virtuous", "Quite noble", "Rather good"] },
+            { "word": "PERNICIOUS", "definition": "Having a harmful effect in a subtle way", "sentence": "The pernicious influence went unnoticed for years.", "wrongAnswers": ["Very beneficial", "Quite helpful", "Rather advantageous"] }
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "unitName": "Advanced Literary Terms",
+          "words": [
+            { "word": "BILDUNGSROMAN", "definition": "A novel about someone's formative years", "sentence": "The Catcher in the Rye is a bildungsroman.", "wrongAnswers": ["A mystery novel", "A romance story", "A fantasy tale"] },
+            { "word": "DENOUEMENT", "definition": "The final resolution of a plot", "sentence": "The denouement revealed the killer's identity.", "wrongAnswers": ["The beginning", "The middle", "The introduction"] },
+            { "word": "DICTION", "definition": "The choice and use of words", "sentence": "The poet's diction was formal and elevated.", "wrongAnswers": ["Plot structure", "Character development", "Setting description"] },
+            { "word": "ETHOS", "definition": "An appeal to ethics or credibility", "sentence": "The speaker established ethos by citing credentials.", "wrongAnswers": ["Emotional appeal", "Logical argument", "Personal story"] },
+            { "word": "HUBRIS", "definition": "Excessive pride or self-confidence", "sentence": "His hubris led to his downfall.", "wrongAnswers": ["Great humility", "Deep modesty", "Extreme meekness"] },
+            { "word": "IN MEDIAS RES", "definition": "Starting a story in the middle of action", "sentence": "The novel begins in medias res with a battle.", "wrongAnswers": ["At the beginning", "At the end", "In chronological order"] },
+            { "word": "PATHOS", "definition": "An appeal to emotion", "sentence": "The speech used pathos to move the audience.", "wrongAnswers": ["Logical proof", "Factual evidence", "Statistical data"] },
+            { "word": "STREAM OF CONSCIOUSNESS", "definition": "A narrative style showing thoughts", "sentence": "Joyce used stream of consciousness in Ulysses.", "wrongAnswers": ["Third person narrator", "Omniscient perspective", "Structured dialogue"] },
+            { "word": "TRAGIC FLAW", "definition": "A character defect leading to downfall", "sentence": "Hamlet's indecision was his tragic flaw.", "wrongAnswers": ["Great strength", "Main virtue", "Best quality"] },
+            { "word": "UNRELIABLE NARRATOR", "definition": "A narrator whose credibility is compromised", "sentence": "The unreliable narrator distorted events.", "wrongAnswers": ["Truthful speaker", "Honest voice", "Accurate reporter"] }
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "unitName": "AP Language & Composition",
+          "words": [
+            { "word": "ANECDOTE", "definition": "A short personal story", "sentence": "The anecdote illustrated her point effectively.", "wrongAnswers": ["A long novel", "A data table", "A formal theorem"] },
+            { "word": "ANTITHESIS", "definition": "Direct contrast or opposition of ideas", "sentence": "Give me liberty or give me death uses antithesis.", "wrongAnswers": ["Perfect agreement", "Complete similarity", "Total harmony"] },
+            { "word": "COLLOQUIAL", "definition": "Informal language of ordinary conversation", "sentence": "The essay's colloquial tone was conversational.", "wrongAnswers": ["Very formal", "Quite academic", "Rather technical"] },
+            { "word": "CONCESSION", "definition": "Acknowledging an opposing viewpoint", "sentence": "The concession strengthened her argument.", "wrongAnswers": ["Complete rejection", "Total dismissal", "Utter denial"] },
+            { "word": "JUXTAPOSITION", "definition": "Placing contrasting elements side by side", "sentence": "The juxtaposition highlighted the differences.", "wrongAnswers": ["Keeping apart", "Separating fully", "Dividing completely"] },
+            { "word": "QUALIFIER", "definition": "A word that limits or modifies meaning", "sentence": "Words like usually are qualifiers.", "wrongAnswers": ["An absolute term", "A definite statement", "A certain claim"] },
+            { "word": "REFUTE", "definition": "To prove a statement wrong", "sentence": "The evidence refutes that claim.", "wrongAnswers": ["To confirm", "To support", "To validate"] },
+            { "word": "SYNTAX", "definition": "The arrangement of words in sentences", "sentence": "The author's complex syntax created depth.", "wrongAnswers": ["Word choice", "Vocabulary level", "Grammar rules"] },
+            { "word": "THESIS", "definition": "The main argument or claim", "sentence": "State your thesis in the introduction.", "wrongAnswers": ["Supporting detail", "Minor point", "Background info"] },
+            { "word": "TONE", "definition": "The author's attitude toward the subject", "sentence": "The essay's tone was critical yet respectful.", "wrongAnswers": ["The topic", "The audience", "The purpose"] }
+          ]
+        },
+        {
+          "unitNumber": 4,
+          "unitName": "American Literature",
+          "words": [
+            { "word": "ALLEGORY", "definition": "A story with symbolic meaning", "sentence": "The Crucible is an allegory for McCarthyism.", "wrongAnswers": ["A literal account", "A factual report", "A direct narrative"] },
+            { "word": "AMERICAN DREAM", "definition": "The ideal of equality and opportunity", "sentence": "The Great Gatsby examines the American Dream.", "wrongAnswers": ["European monarchy", "Asian philosophy", "African tradition"] },
+            { "word": "DIALECT", "definition": "A regional variety of language", "sentence": "Twain used Mississippi River dialect.", "wrongAnswers": ["Formal English", "Standard speech", "Academic language"] },
+            { "word": "GOTHIC", "definition": "A style featuring horror and romance", "sentence": "Poe's stories exemplify Gothic literature.", "wrongAnswers": ["Light comedy", "Simple realism", "Straightforward prose"] },
+            { "word": "NATURALISM", "definition": "Literary movement emphasizing determinism", "sentence": "London's novels reflect naturalism.", "wrongAnswers": ["Free will focus", "Optimistic outlook", "Idealistic view"] },
+            { "word": "REALISM", "definition": "Depicting life truthfully without idealization", "sentence": "Chopin wrote in the realist tradition.", "wrongAnswers": ["Fantasy style", "Romantic ideal", "Imaginative fiction"] },
+            { "word": "ROMANTICISM", "definition": "Movement emphasizing emotion and nature", "sentence": "Thoreau's work shows romanticism.", "wrongAnswers": ["Pure logic", "Cold reason", "Scientific method"] },
+            { "word": "TRANSCENDENTALISM", "definition": "Philosophy valuing intuition over reason", "sentence": "Emerson founded transcendentalism.", "wrongAnswers": ["Materialism", "Empiricism", "Rationalism"] },
+            { "word": "VERNACULAR", "definition": "The language of ordinary people", "sentence": "Hurston captured African American vernacular.", "wrongAnswers": ["Formal speech", "Academic prose", "Literary language"] },
+            { "word": "ZEITGEIST", "definition": "The spirit of the times", "sentence": "The novel captured the zeitgeist of the era.", "wrongAnswers": ["Timeless truth", "Universal constant", "Eternal principle"] }
+          ]
+        },
+        {
+          "unitNumber": 5,
+          "unitName": "U.S. History",
+          "words": [
+            { "word": "ABOLITIONIST", "definition": "Someone who wanted to end slavery", "sentence": "Frederick Douglass was a prominent abolitionist.", "wrongAnswers": ["Slavery supporter", "Pro-slavery advocate", "Slavery defender"] },
+            { "word": "CHECKS AND BALANCES", "definition": "System limiting each branch's power", "sentence": "Checks and balances prevent tyranny.", "wrongAnswers": ["Unlimited power", "Total control", "Complete authority"] },
+            { "word": "DUE PROCESS", "definition": "Fair treatment through the judicial system", "sentence": "The 14th Amendment guarantees due process.", "wrongAnswers": ["Arbitrary arrest", "Unfair trial", "No legal rights"] },
+            { "word": "ISOLATIONISM", "definition": "A policy of avoiding foreign involvement", "sentence": "America practiced isolationism before WWI.", "wrongAnswers": ["Global intervention", "World leadership", "International activism"] },
+            { "word": "MANIFEST DESTINY", "definition": "Belief in westward expansion as inevitable", "sentence": "Manifest Destiny justified territorial expansion.", "wrongAnswers": ["Isolationist policy", "Anti-expansion view", "Stay-at-home doctrine"] },
+            { "word": "PROGRESSIVE ERA", "definition": "Period of social activism and reform", "sentence": "The Progressive Era addressed corruption.", "wrongAnswers": ["Conservative period", "Traditional time", "Reactionary age"] },
+            { "word": "RECONSTRUCTION", "definition": "Rebuilding the South after Civil War", "sentence": "Reconstruction attempted to integrate freed slaves.", "wrongAnswers": ["Pre-war period", "Colonial era", "Revolutionary time"] },
+            { "word": "SECTIONALISM", "definition": "Loyalty to regional rather than national interests", "sentence": "Sectionalism contributed to the Civil War.", "wrongAnswers": ["National unity", "Federal loyalty", "Country-wide support"] },
+            { "word": "TEMPERANCE", "definition": "Movement to reduce alcohol consumption", "sentence": "The temperance movement led to Prohibition.", "wrongAnswers": ["Promoting drinking", "Encouraging alcohol", "Supporting bars"] },
+            { "word": "URBANIZATION", "definition": "Growth of cities and city living", "sentence": "Urbanization increased during industrialization.", "wrongAnswers": ["Rural expansion", "Farm growth", "Country development"] }
+          ]
+        },
+        {
+          "unitNumber": 6,
+          "unitName": "College-Level Reasoning",
+          "words": [
+            { "word": "ANALOGY", "definition": "A comparison between two things", "sentence": "The analogy helped clarify the concept.", "wrongAnswers": ["A contrast", "An opposition", "A difference"] },
+            { "word": "COGENT", "definition": "Clear, logical, and convincing", "sentence": "She presented a cogent argument.", "wrongAnswers": ["Very illogical", "Quite confusing", "Rather weak"] },
+            { "word": "CORROBORATE", "definition": "To confirm with evidence", "sentence": "The witness will corroborate the story.", "wrongAnswers": ["To contradict", "To deny", "To dispute"] },
+            { "word": "DELINEATE", "definition": "To describe precisely", "sentence": "Please delineate your proposal clearly.", "wrongAnswers": ["To obscure", "To confuse", "To hide"] },
+            { "word": "EXTRAPOLATE", "definition": "To predict based on known information", "sentence": "We can extrapolate future trends from data.", "wrongAnswers": ["To ignore patterns", "To dismiss evidence", "To reject facts"] },
+            { "word": "INDUCTIVE", "definition": "Reasoning from specific to general", "sentence": "Scientists use inductive reasoning.", "wrongAnswers": ["Deductive only", "Top-down thinking", "General to specific"] },
+            { "word": "PERTINENT", "definition": "Relevant or applicable", "sentence": "Include only pertinent information.", "wrongAnswers": ["Completely irrelevant", "Totally unrelated", "Utterly disconnected"] },
+            { "word": "SUBSTANTIATE", "definition": "To provide evidence for", "sentence": "Can you substantiate your claims?", "wrongAnswers": ["To disprove", "To refute", "To deny"] },
+            { "word": "TAUTOLOGY", "definition": "Saying the same thing twice", "sentence": "Free gift is a tautology.", "wrongAnswers": ["Contradictory terms", "Opposite ideas", "Conflicting words"] },
+            { "word": "TENUOUS", "definition": "Very weak or slight", "sentence": "The connection between them is tenuous.", "wrongAnswers": ["Very strong", "Quite solid", "Rather firm"] }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "gradeName": "12th Grade",
+      "units": [
+        {
+          "unitNumber": 1,
+          "unitName": "SAT/ACT Vocabulary",
+          "words": [
+            { "word": "ABERRATION", "definition": "A departure from what is normal", "sentence": "The warm winter was an aberration.", "wrongAnswers": ["Normal occurrence", "Typical event", "Expected pattern"] },
+            { "word": "ASCETIC", "definition": "Characterized by severe self-discipline", "sentence": "The monk lived an ascetic life.", "wrongAnswers": ["Luxurious lifestyle", "Indulgent living", "Hedonistic approach"] },
+            { "word": "BELIE", "definition": "To give a false impression of", "sentence": "Her smile belied her sadness.", "wrongAnswers": ["To reveal truthfully", "To show accurately", "To display honestly"] },
+            { "word": "DELETERIOUS", "definition": "Causing harm or damage", "sentence": "Smoking has deleterious health effects.", "wrongAnswers": ["Very beneficial", "Quite helpful", "Rather positive"] },
+            { "word": "DISPARATE", "definition": "Essentially different in kind", "sentence": "The study examined disparate cultures.", "wrongAnswers": ["Very similar", "Quite alike", "Rather uniform"] },
+            { "word": "EVANESCENT", "definition": "Soon passing out of sight or memory", "sentence": "The evanescent beauty of a sunset.", "wrongAnswers": ["Permanent", "Lasting", "Enduring"] },
+            { "word": "INSIPID", "definition": "Lacking flavor or vigor", "sentence": "The insipid conversation bored everyone.", "wrongAnswers": ["Fascinating", "Exciting", "Stimulating"] },
+            { "word": "OBSEQUIOUS", "definition": "Obedient or attentive to an excessive degree", "sentence": "His obsequious behavior was off-putting.", "wrongAnswers": ["Defiant", "Rebellious", "Disrespectful"] },
+            { "word": "RECALCITRANT", "definition": "Having an obstinately uncooperative attitude", "sentence": "The recalcitrant student refused to comply.", "wrongAnswers": ["Very cooperative", "Quite obedient", "Rather compliant"] },
+            { "word": "VACILLATE", "definition": "To waver between different opinions", "sentence": "Don't vacillate when making important decisions.", "wrongAnswers": ["To decide firmly", "To act decisively", "To commit fully"] }
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "unitName": "British Literature",
+          "words": [
+            { "word": "BYRONIC HERO", "definition": "A moody, passionate, isolated protagonist", "sentence": "Heathcliff is a Byronic hero.", "wrongAnswers": ["A cheerful hero", "A social butterfly", "A conventional protagonist"] },
+            { "word": "DRAMATIC IRONY", "definition": "When the audience knows more than characters", "sentence": "Romeo and Juliet uses dramatic irony.", "wrongAnswers": ["Situational surprise", "Character awareness", "Audience confusion"] },
+            { "word": "ELEGY", "definition": "A poem of serious reflection on death", "sentence": "Gray's Elegy Written in a Country Churchyard is famous.", "wrongAnswers": ["A happy celebration", "A comic verse", "A love song"] },
+            { "word": "EPIC", "definition": "A long narrative poem about heroic deeds", "sentence": "Beowulf is an Anglo-Saxon epic.", "wrongAnswers": ["A short story", "A brief lyric", "A quick tale"] },
+            { "word": "METER", "definition": "The rhythmic structure of verse", "sentence": "Iambic pentameter is a common meter.", "wrongAnswers": ["The meaning", "The theme", "The plot"] },
+            { "word": "ODE", "definition": "A lyric poem addressed to a particular subject", "sentence": "Keats wrote Ode to a Nightingale.", "wrongAnswers": ["A prose essay", "A short story", "A dramatic play"] },
+            { "word": "PASTORAL", "definition": "Portraying rural life as peaceful and simple", "sentence": "The pastoral poem idealized country living.", "wrongAnswers": ["Urban setting", "City life", "Industrial theme"] },
+            { "word": "SOLILOQUY", "definition": "A speech revealing private thoughts", "sentence": "Hamlet's To be or not to be is a soliloquy.", "wrongAnswers": ["A group dialogue", "A public speech", "An argument"] },
+            { "word": "SONNET", "definition": "A 14-line poem with specific rhyme scheme", "sentence": "Shakespeare wrote 154 sonnets.", "wrongAnswers": ["A long epic", "Free verse", "A short haiku"] },
+            { "word": "TRAGIC HERO", "definition": "A noble character with a fatal flaw", "sentence": "Macbeth is a tragic hero.", "wrongAnswers": ["A perfect character", "A comic figure", "A villain"] }
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "unitName": "AP Literature",
+          "words": [
+            { "word": "APOSTROPHE", "definition": "Directly addressing an absent person or thing", "sentence": "O Death, where is thy sting? uses apostrophe.", "wrongAnswers": ["Speaking to audience", "Talking to oneself", "Conversing normally"] },
+            { "word": "CAESURA", "definition": "A pause in a line of poetry", "sentence": "The caesura creates dramatic effect.", "wrongAnswers": ["Continuous flow", "No breaks", "Smooth rhythm"] },
+            { "word": "ENJAMBMENT", "definition": "Continuation of a sentence beyond a line break", "sentence": "Enjambment creates flowing rhythm.", "wrongAnswers": ["End-stopped lines", "Complete thoughts", "Finished sentences"] },
+            { "word": "METONYMY", "definition": "Substituting the name of an attribute", "sentence": "The White House said uses metonymy for president.", "wrongAnswers": ["Literal naming", "Direct reference", "Exact identification"] },
+            { "word": "ONOMATOPOEIA", "definition": "Words that imitate sounds", "sentence": "Buzz and hiss are onomatopoeia.", "wrongAnswers": ["Silent words", "Visual descriptions", "Abstract concepts"] },
+            { "word": "SYNECDOCHE", "definition": "A part representing the whole", "sentence": "All hands on deck uses synecdoche for sailors.", "wrongAnswers": ["Literal meaning", "Exact representation", "Complete description"] },
+            { "word": "VERISIMILITUDE", "definition": "The appearance of being real", "sentence": "The novel's verisimilitude made it believable.", "wrongAnswers": ["Obvious fiction", "Clear fantasy", "Evident unreality"] },
+            { "word": "VILLANELLE", "definition": "A 19-line poem with repeating lines", "sentence": "Do Not Go Gentle is a famous villanelle.", "wrongAnswers": ["Free verse", "Blank verse", "Open form"] },
+            { "word": "ASSONANCE", "definition": "Repetition of vowel sounds", "sentence": "Fleet feet sweep creates assonance.", "wrongAnswers": ["Consonant repetition", "Rhyming endings", "Silent reading"] },
+            { "word": "CONSONANCE", "definition": "Repetition of consonant sounds", "sentence": "Pitter patter shows consonance.", "wrongAnswers": ["Vowel repetition", "Complete silence", "No patterns"] }
+          ]
+        },
+        {
+          "unitNumber": 4,
+          "unitName": "World History",
+          "words": [
+            { "word": "APPEASEMENT", "definition": "Making concessions to avoid conflict", "sentence": "British appeasement failed to prevent WWII.", "wrongAnswers": ["Strong resistance", "Firm opposition", "Military action"] },
+            { "word": "COLD WAR", "definition": "State of political tension without fighting", "sentence": "The Cold War lasted from 1947 to 1991.", "wrongAnswers": ["Hot warfare", "Active combat", "Military battles"] },
+            { "word": "DÉTENTE", "definition": "The easing of strained relations", "sentence": "Détente marked improved US-Soviet relations.", "wrongAnswers": ["Increased tension", "Growing hostility", "Rising conflict"] },
+            { "word": "GENOCIDE", "definition": "Deliberate killing of a people group", "sentence": "The Holocaust was genocide.", "wrongAnswers": ["Preservation", "Protection", "Salvation"] },
+            { "word": "HEGEMONY", "definition": "Leadership or dominance", "sentence": "The empire sought regional hegemony.", "wrongAnswers": ["Complete weakness", "Total submission", "Utter powerlessness"] },
+            { "word": "IMPERIALISM", "definition": "Policy of extending power through colonization", "sentence": "European imperialism shaped Africa.", "wrongAnswers": ["Granting independence", "Promoting freedom", "Ensuring autonomy"] },
+            { "word": "PROXY WAR", "definition": "A war instigated by a major power", "sentence": "Vietnam was a Cold War proxy war.", "wrongAnswers": ["Direct confrontation", "Open warfare", "Face-to-face battle"] },
+            { "word": "REPARATIONS", "definition": "Compensation for war damage", "sentence": "Germany paid reparations after WWI.", "wrongAnswers": ["Receiving payment", "Getting rewards", "Earning money"] },
+            { "word": "TOTALITARIANISM", "definition": "Complete governmental control", "sentence": "Stalin's USSR was totalitarianism.", "wrongAnswers": ["Full democracy", "Complete freedom", "Total liberty"] },
+            { "word": "ZIONISM", "definition": "Movement for Jewish homeland", "sentence": "Zionism led to Israel's establishment.", "wrongAnswers": ["Opposing statehood", "Preventing nations", "Blocking countries"] }
+          ]
+        },
+        {
+          "unitNumber": 5,
+          "unitName": "College Application Essays",
+          "words": [
+            { "word": "ANECDOTAL", "definition": "Based on personal accounts", "sentence": "The anecdotal evidence was compelling but unscientific.", "wrongAnswers": ["Statistically proven", "Scientifically verified", "Data-driven"] },
+            { "word": "ARTICULATE", "definition": "To express ideas clearly", "sentence": "Articulate your goals in the essay.", "wrongAnswers": ["To speak unclearly", "To confuse readers", "To obscure meaning"] },
+            { "word": "CANDID", "definition": "Truthful and straightforward", "sentence": "Write in a candid, authentic voice.", "wrongAnswers": ["Dishonest", "Evasive", "Deceptive"] },
+            { "word": "COMPELLING", "definition": "Evoking interest or attention", "sentence": "Tell a compelling story about your experience.", "wrongAnswers": ["Very boring", "Quite dull", "Rather tedious"] },
+            { "word": "ILLUMINATE", "definition": "To clarify or shed light on", "sentence": "This example illuminates my values.", "wrongAnswers": ["To obscure", "To confuse", "To darken"] },
+            { "word": "NUANCED", "definition": "Characterized by subtle distinctions", "sentence": "Present a nuanced view of the issue.", "wrongAnswers": ["Completely simple", "Totally basic", "Utterly simplistic"] },
+            { "word": "PIVOTAL", "definition": "Of crucial importance", "sentence": "Describe a pivotal moment in your life.", "wrongAnswers": ["Completely insignificant", "Totally unimportant", "Utterly trivial"] },
+            { "word": "REFLECTIVE", "definition": "Characterized by deep thought", "sentence": "The essay should be reflective and insightful.", "wrongAnswers": ["Completely thoughtless", "Totally shallow", "Utterly superficial"] },
+            { "word": "SUCCINCT", "definition": "Briefly and clearly expressed", "sentence": "Keep your thesis succinct and focused.", "wrongAnswers": ["Very wordy", "Quite rambling", "Rather lengthy"] },
+            { "word": "VULNERABLE", "definition": "Exposed to emotional risk", "sentence": "Be vulnerable and honest in your writing.", "wrongAnswers": ["Completely guarded", "Totally defensive", "Utterly closed"] }
+          ]
+        },
+        {
+          "unitNumber": 6,
+          "unitName": "Senior Capstone",
+          "words": [
+            { "word": "AMALGAMATE", "definition": "To combine or unite", "sentence": "The companies will amalgamate next year.", "wrongAnswers": ["To separate", "To divide", "To split"] },
+            { "word": "CONTENTIOUS", "definition": "Causing or likely to cause disagreement", "sentence": "The contentious issue divided the community.", "wrongAnswers": ["Universally accepted", "Totally agreeable", "Completely harmonious"] },
+            { "word": "DIDACTIC", "definition": "Intended to teach", "sentence": "The novel's didactic purpose was obvious.", "wrongAnswers": ["Purely entertaining", "Just fun", "Only amusing"] },
+            { "word": "ELUCIDATE", "definition": "To make clear", "sentence": "Please elucidate your methodology.", "wrongAnswers": ["To confuse", "To obscure", "To complicate"] },
+            { "word": "EQUIVOCAL", "definition": "Open to more than one interpretation", "sentence": "His equivocal response satisfied no one.", "wrongAnswers": ["Perfectly clear", "Totally direct", "Completely unambiguous"] },
+            { "word": "IDIOSYNCRASY", "definition": "A distinctive or peculiar feature", "sentence": "Her writing style has unique idiosyncrasies.", "wrongAnswers": ["Common trait", "Typical feature", "Standard characteristic"] },
+            { "word": "INTRANSIGENT", "definition": "Unwilling to change one's views", "sentence": "The intransigent negotiator refused to compromise.", "wrongAnswers": ["Very flexible", "Quite adaptable", "Rather yielding"] },
+            { "word": "PERFUNCTORY", "definition": "Carried out with minimum effort", "sentence": "His perfunctory apology lacked sincerity.", "wrongAnswers": ["Very thorough", "Quite careful", "Rather detailed"] },
+            { "word": "PROLIFERATE", "definition": "To increase rapidly", "sentence": "Smartphones proliferated in the 2010s.", "wrongAnswers": ["To decrease", "To diminish", "To decline"] },
+            { "word": "SAGACIOUS", "definition": "Having good judgment", "sentence": "The sagacious advisor gave wise counsel.", "wrongAnswers": ["Very foolish", "Quite unwise", "Rather imprudent"] }
+          ]
+        }
+      ]
+    }
+  ]
+}
