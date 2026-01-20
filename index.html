@@ -10,124 +10,144 @@
     <div class="stars-background"></div>
 
     <!-- Mascot Selection Screen -->
-    <div class="mascot-selection-screen" id="mascotSelection">
+    <div class="mascot-selection-screen" id="mascotSelection" role="main">
         <h1 class="selection-title">Choose Your Adventure Buddy!</h1>
-        <div class="mascot-choices">
-            <div class="mascot-choice" data-mascot="lion">
-                <div class="mascot-character">🦁</div>
-                <div class="mascot-name">Leo the Lion</div>
-                <button class="select-button">Pick Me!</button>
+        <div class="mascot-choices" role="navigation" aria-label="Mascot selection">
+            <div class="mascot-choice" data-mascot="lion" role="group" aria-labelledby="leo-name">
+                <div class="mascot-character" aria-hidden="true">🦁</div>
+                <div class="mascot-name" id="leo-name">Leo the Lion</div>
+                <button class="select-button" aria-label="Choose Leo the Lion as your adventure buddy">Pick Me!</button>
             </div>
-            <div class="mascot-choice" data-mascot="panda">
-                <div class="mascot-character">🐼</div>
-                <div class="mascot-name">Penny the Panda</div>
-                <button class="select-button">Pick Me!</button>
+            <div class="mascot-choice" data-mascot="panda" role="group" aria-labelledby="penny-name">
+                <div class="mascot-character" aria-hidden="true">🐼</div>
+                <div class="mascot-name" id="penny-name">Penny the Panda</div>
+                <button class="select-button" aria-label="Choose Penny the Panda as your adventure buddy">Pick Me!</button>
             </div>
-            <div class="mascot-choice" data-mascot="fox">
-                <div class="mascot-character">🦊</div>
-                <div class="mascot-name">Freddy the Fox</div>
-                <button class="select-button">Pick Me!</button>
+            <div class="mascot-choice" data-mascot="fox" role="group" aria-labelledby="freddy-name">
+                <div class="mascot-character" aria-hidden="true">🦊</div>
+                <div class="mascot-name" id="freddy-name">Freddy the Fox</div>
+                <button class="select-button" aria-label="Choose Freddy the Fox as your adventure buddy">Pick Me!</button>
             </div>
         </div>
     </div>
 
     <!-- Unit Selection Screen -->
     <div class="unit-selection-screen" id="unitSelection" style="display: none;">
-        <h1 class="selection-title">Choose a Unit to Learn!</h1>
-        <div class="units-container" id="unitsContainer">
-            <!-- Units will be dynamically inserted here -->
+        <h1 class="selection-title">Choose Your Grade Level!</h1>
+
+        <!-- Grade Selection -->
+        <div class="grade-selection" id="gradeSelection" role="navigation" aria-label="Grade level selection">
+            <div class="grades-container" id="gradesContainer">
+                <!-- Grades will be dynamically inserted here -->
+            </div>
+        </div>
+
+        <!-- Unit Selection (shown after grade is selected) -->
+        <div class="units-section" id="unitsSection" style="display: none;">
+            <button class="back-button" id="backToGrades" aria-label="Go back to grade selection">
+                ← Back to Grades
+            </button>
+            <h2 class="selection-subtitle" id="gradeTitle">Choose a Unit to Learn!</h2>
+            <div class="units-container" id="unitsContainer" role="navigation" aria-label="Unit selection">
+                <!-- Units will be dynamically inserted here -->
+            </div>
         </div>
     </div>
 
     <!-- Main Game Container -->
-    <div class="game-container" id="gameContainer" style="display: none;">
-        <div class="header">
+    <div class="game-container" id="gameContainer" style="display: none;" role="main">
+        <header class="header">
             <h1>ANIMAL VOCAB ADVENTURE!</h1>
-            <div class="unit-title" id="unitTitle">Unit 1: Amazing Adventures</div>
-            <div class="stats">
+            <h2 class="unit-title" id="unitTitle">Unit 1: Amazing Adventures</h2>
+            <div class="stats" role="status" aria-live="polite" aria-label="Game statistics">
                 <div class="stat-item">
-                    <span class="stat-label">⭐ Score:</span>
-                    <span class="stat-value" id="score">0</span>
+                    <span class="stat-label"><span aria-hidden="true">⭐</span> Score:</span>
+                    <span class="stat-value" id="score" aria-label="Current score">0</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-label">🔥 Streak:</span>
-                    <span class="stat-value" id="streak">0</span>
+                    <span class="stat-label"><span aria-hidden="true">🔥</span> Streak:</span>
+                    <span class="stat-value" id="streak" aria-label="Current streak">0</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-label">📊 Correct:</span>
-                    <span class="stat-value" id="correct">0</span>
+                    <span class="stat-label"><span aria-hidden="true">📊</span> Correct:</span>
+                    <span class="stat-value" id="correct" aria-label="Correct answers">0</span>
                     <span class="stat-value"> / </span>
-                    <span class="stat-value" id="total">0</span>
+                    <span class="stat-value" id="total" aria-label="Total questions">0</span>
                 </div>
             </div>
+        </header>
+
+        <div class="mascot-container" role="complementary" aria-label="Mascot encouragement">
+            <div class="mascot" id="mascot" aria-hidden="true">🦁</div>
+            <div class="speech-bubble" id="speechBubble" role="status" aria-live="polite">Let's learn some words!</div>
         </div>
 
-        <div class="mascot-container">
-            <div class="mascot" id="mascot">🦁</div>
-            <div class="speech-bubble" id="speechBubble">Let's learn some words!</div>
-        </div>
-
-        <div class="question-container">
+        <div class="question-container" role="region" aria-label="Question area">
             <div class="word-display">
-                <h2>What does this word mean?</h2>
-                <div class="word" id="currentWord">WORD</div>
-                <button class="speaker-button" id="speakerButton" title="Click to hear the word">🔊 Listen</button>
-                <div class="example-sentence" id="exampleSentence"></div>
+                <h3 id="questionPrompt">What does this word mean?</h3>
+                <div class="word" id="currentWord" role="heading" aria-level="4" aria-label="Vocabulary word">WORD</div>
+                <button class="speaker-button" id="speakerButton" aria-label="Click to hear the word and sentence read aloud">
+                    <span aria-hidden="true">🔊</span> Listen
+                </button>
+                <p class="example-sentence" id="exampleSentence" role="complementary" aria-label="Example sentence"></p>
             </div>
 
-            <div class="answers-grid" id="answersGrid">
+            <div class="answers-grid" id="answersGrid" role="group" aria-labelledby="questionPrompt">
                 <!-- Answer buttons will be inserted here -->
             </div>
         </div>
 
-        <div class="progress-container">
-            <div class="progress-bar">
+        <div class="progress-container" role="region" aria-label="Progress indicator">
+            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Unit progress">
                 <div class="progress-fill" id="progressFill"></div>
             </div>
             <div class="progress-text">Level Progress</div>
         </div>
+
+        <!-- Live region for screen reader announcements -->
+        <div class="sr-only" id="liveRegion" role="status" aria-live="assertive" aria-atomic="true"></div>
     </div>
 
     <!-- Full Screen Celebration Overlay -->
-    <div class="fullscreen-overlay" id="celebrationOverlay">
+    <div class="fullscreen-overlay" id="celebrationOverlay" role="dialog" aria-modal="true" aria-labelledby="celebrationMessage" aria-hidden="true">
         <div class="celebration-content">
-            <div class="big-mascot" id="celebrationMascot">🦁</div>
-            <div class="celebration-message" id="celebrationMessage">AMAZING!</div>
-            <div class="celebration-stars"></div>
+            <div class="big-mascot" id="celebrationMascot" aria-hidden="true">🦁</div>
+            <h2 class="celebration-message" id="celebrationMessage">AMAZING!</h2>
+            <div class="celebration-stars" aria-hidden="true"></div>
         </div>
     </div>
 
     <!-- Full Screen Wrong Answer Overlay -->
-    <div class="fullscreen-overlay" id="wrongOverlay">
+    <div class="fullscreen-overlay" id="wrongOverlay" role="dialog" aria-modal="true" aria-labelledby="wrongMessage" aria-hidden="true">
         <div class="wrong-content">
-            <div class="sad-mascot" id="wrongMascot">🦁</div>
-            <div class="wrong-message">Oops! Let's learn this one!</div>
+            <div class="sad-mascot" id="wrongMascot" aria-hidden="true">🦁</div>
+            <h2 class="wrong-message" id="wrongMessage">Oops! Let's learn this one!</h2>
             <div class="correct-answer-reveal">
-                <div class="reveal-label">The correct answer is:</div>
-                <div class="reveal-answer" id="revealAnswer"></div>
-                <div class="reveal-word-container">
-                    <span class="reveal-word" id="revealWord">WORD</span>
+                <p class="reveal-label">The correct answer is:</p>
+                <p class="reveal-answer" id="revealAnswer"></p>
+                <p class="reveal-word-container">
+                    <strong class="reveal-word" id="revealWord">WORD</strong>
                     <span class="reveal-means">means</span>
                     <span class="reveal-definition" id="revealDefinition">definition</span>
-                </div>
-                <button class="continue-button" id="continueButton">Got It! Let's Continue!</button>
+                </p>
+                <button class="continue-button" id="continueButton" aria-label="Continue to next question">Got It! Let's Continue!</button>
             </div>
         </div>
     </div>
 
     <!-- Unit Complete Overlay -->
-    <div class="fullscreen-overlay" id="unitCompleteOverlay">
+    <div class="fullscreen-overlay" id="unitCompleteOverlay" role="dialog" aria-modal="true" aria-labelledby="unitCompleteTitle" aria-hidden="true">
         <div class="unit-complete-content">
-            <div class="huge-mascot" id="unitCompleteMascot">🦁</div>
-            <div class="unit-complete-title">UNIT COMPLETE!</div>
-            <div class="unit-complete-stats">
+            <div class="huge-mascot" id="unitCompleteMascot" aria-hidden="true">🦁</div>
+            <h2 class="unit-complete-title" id="unitCompleteTitle">UNIT COMPLETE!</h2>
+            <div class="unit-complete-stats" role="status" aria-label="Final score">
                 <div class="unit-complete-stat">
-                    <div class="unit-complete-stat-label">Your Score</div>
-                    <div class="unit-complete-stat-value" id="unitCompleteScore">0</div>
+                    <p class="unit-complete-stat-label">Your Score</p>
+                    <p class="unit-complete-stat-value" id="unitCompleteScore" aria-label="Your final score">0</p>
                 </div>
             </div>
-            <div class="unit-complete-message" id="unitCompleteMessage"></div>
-            <button class="continue-button" id="chooseAnotherUnitButton">Choose Another Unit</button>
+            <p class="unit-complete-message" id="unitCompleteMessage"></p>
+            <button class="continue-button" id="chooseAnotherUnitButton" aria-label="Return to unit selection">Choose Another Unit</button>
         </div>
     </div>
 

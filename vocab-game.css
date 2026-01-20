@@ -865,3 +865,192 @@ body {
         font-size: 8em;
     }
 }
+
+/* ===== ACCESSIBILITY STYLES ===== */
+
+/* Screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Enhanced focus indicators for keyboard navigation */
+*:focus {
+    outline: 3px solid #ffd93d;
+    outline-offset: 3px;
+}
+
+button:focus,
+.select-button:focus,
+.unit-button:focus,
+.grade-button:focus,
+.answer-button:focus {
+    outline: 4px solid #ffd93d;
+    outline-offset: 4px;
+    box-shadow: 0 0 0 6px rgba(255, 217, 61, 0.3);
+}
+
+/* Skip to main content link */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #ffd93d;
+    color: #333;
+    padding: 8px;
+    text-decoration: none;
+    z-index: 10000;
+    font-weight: bold;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* ===== GRADE SELECTION STYLES ===== */
+
+.grade-selection {
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 30px;
+}
+
+.grades-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.grade-button {
+    background: linear-gradient(135deg, #6bcf7f 0%, #4d96ff 100%);
+    border: none;
+    border-radius: 20px;
+    padding: 25px 15px;
+    font-size: clamp(1.2em, 3vw, 1.8em);
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.grade-button:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.grade-button:active {
+    transform: translateY(-2px) scale(1.02);
+}
+
+.grade-number {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.grade-label {
+    font-size: 0.6em;
+    opacity: 0.9;
+}
+
+/* Units section (shown after grade selection) */
+.units-section {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.selection-subtitle {
+    font-size: clamp(1.2em, 4vw, 2.5em);
+    color: #ffd93d;
+    text-shadow: 3px 3px 0px #ff6b6b, 6px 6px 15px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.back-button {
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 25px;
+    padding: 12px 24px;
+    font-size: clamp(1em, 2.5vw, 1.2em);
+    font-weight: bold;
+    color: #764ba2;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.back-button:hover {
+    transform: translateX(-5px);
+    background: white;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.back-button:active {
+    transform: translateX(-2px);
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    button, .select-button, .unit-button, .grade-button {
+        border: 3px solid currentColor;
+    }
+    
+    *:focus {
+        outline-width: 4px;
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    
+    .mascot-choice:hover,
+    .unit-button:hover,
+    .grade-button:hover {
+        transform: none;
+    }
+}
+
+/* Mobile accessibility improvements */
+@media (max-width: 768px) {
+    .grades-container {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 12px;
+        padding: 15px;
+    }
+    
+    .grade-button {
+        padding: 20px 10px;
+        min-height: 80px;
+        font-size: clamp(1em, 4vw, 1.5em);
+    }
+    
+    /* Larger touch targets for mobile */
+    button, .select-button, .answer-button {
+        min-height: 48px;
+        min-width: 48px;
+    }
+}
