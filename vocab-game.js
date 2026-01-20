@@ -29,6 +29,10 @@ const synth = window.speechSynthesis;
 // DOM elements
 const mascotSelectionElement = document.getElementById('mascotSelection');
 const unitSelectionElement = document.getElementById('unitSelection');
+const gradeSelectionElement = document.getElementById('gradeSelection');
+const unitsSectionElement = document.getElementById('unitsSection');
+const backToGradesButton = document.getElementById('backToGrades');
+const gradeTitleElement = document.getElementById('gradeTitle');
 const gameContainerElement = document.getElementById('gameContainer');
 const scoreElement = document.getElementById('score');
 const streakElement = document.getElementById('streak');
@@ -42,6 +46,7 @@ const mascotElement = document.getElementById('mascot');
 const speechBubbleElement = document.getElementById('speechBubble');
 const progressFillElement = document.getElementById('progressFill');
 const unitTitleElement = document.getElementById('unitTitle');
+const liveRegionElement = document.getElementById('liveRegion');
 
 // Overlay elements
 const celebrationOverlayElement = document.getElementById('celebrationOverlay');
@@ -71,6 +76,47 @@ async function loadVocabularyData() {
         console.error('Error loading vocabulary data:', error);
         alert('Error loading vocabulary data. Please refresh the page.');
     }
+}
+
+// Accessibility: Announce to screen readers
+function announceToScreenReader(message) {
+    if (liveRegionElement) {
+        liveRegionElement.textContent = message;
+        // Clear after announcement to allow repeated announcements of same text
+        setTimeout(() => {
+            liveRegionElement.textContent = '';
+        }, 1000);
+    }
+}
+
+// Accessibility: Trap focus within modal
+function trapFocus(element) {
+    const focusableElements = element.querySelectorAll(
+        'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+    );
+    const firstFocusable = focusableElements[0];
+    const lastFocusable = focusableElements[focusableElements.length - 1];
+
+    function handleTabKey(e) {
+        if (e.key !== 'Tab') return;
+
+        if (e.shiftKey) {
+            if (document.activeElement === firstFocusable) {
+                lastFocusable.focus();
+                e.preventDefault();
+            }
+        } else {
+            if (document.activeElement === lastFocusable) {
+                firstFocusable.focus();
+                e.preventDefault();
+            }
+        }
+    }
+
+    element.addEventListener('keydown', handleTabKey);
+    if (firstFocusable) firstFocusable.focus();
+
+    return () => element.removeEventListener('keydown', handleTabKey);
 }
 
 // Sound effects using Web Audio API
@@ -196,46 +242,127 @@ function selectMascot(mascotType) {
     wrongMascotElement.textContent = selectedMascot.emoji;
     unitCompleteMascotElement.textContent = selectedMascot.emoji;
 
-    setupUnitSelection();
+    announceToScreenReader(`${selectedMascot.name} selected as your adventure buddy!`);
+
+    setupGradeSelection();
 }
 
-// Unit selection
-function setupUnitSelection() {
+// Grade selection
+function setupGradeSelection() {
+    const gradesContainer = document.getElementById('gradesContainer');
+    gradesContainer.innerHTML = '';
+
+    // Show grade selection, hide units
+    gradeSelectionElement.style.display = 'block';
+    unitsSectionElement.style.display = 'none';
+
+    // Create grade buttons
+    allGrades.forEach(grade => {
+        const gradeButton = document.createElement('button');
+        gradeButton.className = 'grade-button';
+        gradeButton.setAttribute('aria-label', `Select ${grade.gradeName}`);
+        gradeButton.innerHTML = `
+            <div class="grade-number">${grade.grade}</div>
+            <div class="grade-label">${grade.gradeName}</div>
+        `;
+        gradeButton.onclick = () => selectGrade(grade);
+
+        // Keyboard navigation
+        gradeButton.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                selectGrade(grade);
+            }
+        });
+
+        gradesContainer.appendChild(gradeButton);
+    });
+
+    announceToScreenReader(`${allGrades.length} grade levels available. Choose your grade level.`);
+}
+
+// Select a grade and show its units
+function selectGrade(grade) {
+    selectedGrade = grade;
+    vocabularyUnits = grade.units;
+
+    // Hide grades, show units
+    gradeSelectionElement.style.display = 'none';
+    unitsSectionElement.style.display = 'block';
+
+    // Update title
+    gradeTitleElement.textContent = `${grade.gradeName} - Choose a Unit!`;
+
+    announceToScreenReader(`${grade.gradeName} selected. ${vocabularyUnits.length} units available.`);
+
+    setupUnitButtons();
+
+    // Focus on back button for accessibility
+    if (backToGradesButton) {
+        setTimeout(() => backToGradesButton.focus(), 100);
+    }
+}
+
+// Back to grades button
+if (backToGradesButton) {
+    backToGradesButton.addEventListener('click', () => {
+        setupGradeSelection();
+        announceToScreenReader('Returned to grade selection');
+    });
+}
+
+// Unit selection - show unit buttons
+function setupUnitButtons() {
     const unitsContainer = document.getElementById('unitsContainer');
     unitsContainer.innerHTML = '';
 
-    // Get the first grade's units (default to Grade 2)
-    if (allGrades.length > 0) {
-        selectedGrade = allGrades[0];
-        vocabularyUnits = selectedGrade.units;
+    // Create unit buttons
+    vocabularyUnits.forEach(unit => {
+        const unitButton = document.createElement('button');
+        unitButton.className = 'unit-button';
+        unitButton.setAttribute('aria-label', `Unit ${unit.unitNumber}: ${unit.unitName}, ${unit.words.length} words`);
+        unitButton.innerHTML = `
+            <div class="unit-number">Unit ${unit.unitNumber}</div>
+            <div class="unit-name">${unit.unitName}</div>
+            <div class="unit-words">${unit.words.length} words</div>
+        `;
+        unitButton.onclick = () => selectUnit(unit.unitNumber);
 
-        // Create unit buttons
-        vocabularyUnits.forEach(unit => {
-            const unitButton = document.createElement('button');
-            unitButton.className = 'unit-button';
-            unitButton.innerHTML = `
-                <div class="unit-number">Unit ${unit.unitNumber}</div>
-                <div class="unit-name">${unit.unitName}</div>
-                <div class="unit-words">${unit.words.length} words</div>
-            `;
-            unitButton.onclick = () => selectUnit(unit.unitNumber);
-            unitsContainer.appendChild(unitButton);
+        // Keyboard navigation
+        unitButton.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                selectUnit(unit.unitNumber);
+            }
         });
 
-        // Add "Surprise Me" button
-        const surpriseButton = document.createElement('button');
-        surpriseButton.className = 'unit-button surprise-button';
-        surpriseButton.innerHTML = `
-            <div class="surprise-icon">🎲</div>
-            <div class="unit-name">Surprise Me!</div>
-            <div class="unit-words">Random unit</div>
-        `;
-        surpriseButton.onclick = () => {
+        unitsContainer.appendChild(unitButton);
+    });
+
+    // Add "Surprise Me" button
+    const surpriseButton = document.createElement('button');
+    surpriseButton.className = 'unit-button surprise-button';
+    surpriseButton.setAttribute('aria-label', 'Surprise Me! Select a random unit');
+    surpriseButton.innerHTML = `
+        <div class="surprise-icon" aria-hidden="true">🎲</div>
+        <div class="unit-name">Surprise Me!</div>
+        <div class="unit-words">Random unit</div>
+    `;
+    surpriseButton.onclick = () => {
+        const randomUnit = Math.floor(Math.random() * vocabularyUnits.length) + 1;
+        selectUnit(randomUnit);
+    };
+
+    // Keyboard navigation
+    surpriseButton.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
             const randomUnit = Math.floor(Math.random() * vocabularyUnits.length) + 1;
             selectUnit(randomUnit);
-        };
-        unitsContainer.appendChild(surpriseButton);
-    }
+        }
+    });
+
+    unitsContainer.appendChild(surpriseButton);
 }
 
 function selectUnit(unitNumber) {
@@ -251,6 +378,8 @@ function selectUnit(unitNumber) {
     speechBubbleElement.textContent = `Let's learn ${selectedUnit.unitName}!`;
     speakText(welcomeMessage);
 
+    announceToScreenReader(`Starting ${selectedUnit.unitName}. Get ready to learn!`);
+
     setTimeout(() => {
         initGame();
     }, 2000);
@@ -260,6 +389,13 @@ function selectUnit(unitNumber) {
 function updateProgress() {
     const progress = (questionsAnswered / 10) * 100;
     progressFillElement.style.width = progress + '%';
+
+    // Update ARIA attributes for screen readers
+    const progressBar = progressFillElement.parentElement;
+    if (progressBar) {
+        progressBar.setAttribute('aria-valuenow', Math.round(progress));
+        progressBar.setAttribute('aria-label', `Unit progress: ${questionsAnswered} of 10 questions answered`);
+    }
 }
 
 // Get a new question
@@ -314,6 +450,9 @@ function displayQuestion() {
     exampleSentenceElement.textContent = `"${currentQuestion.sentence}"`;
     answersGridElement.innerHTML = '';
 
+    // Announce question to screen reader
+    announceToScreenReader(`Question ${questionsAnswered + 1}. What does ${currentQuestion.word} mean?`);
+
     // Speak ONLY the word and sentence automatically (emojis removed in speakText function)
     setTimeout(() => {
         speakText(`${currentQuestion.word}. ${currentQuestion.sentence}`);
@@ -323,9 +462,25 @@ function displayQuestion() {
         const button = document.createElement('button');
         button.className = 'answer-button';
         button.textContent = answer;
+        button.setAttribute('aria-label', `Answer choice: ${answer}`);
         button.onclick = () => checkAnswer(answer, button);
+
+        // Keyboard navigation
+        button.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                checkAnswer(answer, button);
+            }
+        });
+
         answersGridElement.appendChild(button);
     });
+
+    // Focus on first answer button
+    setTimeout(() => {
+        const firstButton = answersGridElement.querySelector('button');
+        if (firstButton) firstButton.focus();
+    }, 500);
 }
 
 // Speaker button to replay audio
@@ -337,14 +492,19 @@ speakerButtonElement.addEventListener('click', () => {
 function showCelebration(message) {
     celebrationMessageElement.textContent = message;
     celebrationOverlayElement.classList.add('active');
+    celebrationOverlayElement.setAttribute('aria-hidden', 'false');
     createMassiveConfetti();
     createStarBurst();
     playCorrectSound();
+
+    // Announce to screen reader
+    announceToScreenReader(`Correct! ${message}`);
 
     // NO speaking of celebration message - just show visually
 
     setTimeout(() => {
         celebrationOverlayElement.classList.remove('active');
+        celebrationOverlayElement.setAttribute('aria-hidden', 'true');
     }, 2000);
 }
 
@@ -354,16 +514,28 @@ function showWrongAnswer() {
     revealWordElement.textContent = currentQuestion.word;
     revealDefinitionElement.textContent = currentQuestion.correctAnswer;
     wrongOverlayElement.classList.add('active');
+    wrongOverlayElement.setAttribute('aria-hidden', 'false');
     playIncorrectSound();
+
+    // Announce to screen reader
+    announceToScreenReader(`Incorrect. The correct answer is: ${currentQuestion.correctAnswer}`);
 
     // Speak ONLY the correct answer explanation (emojis removed automatically)
     speakText(`${currentQuestion.word} means ${currentQuestion.correctAnswer}.`);
+
+    // Trap focus in modal and focus on continue button
+    const removeFocusTrap = trapFocus(wrongOverlayElement);
+    continueButtonElement.focus();
+
+    // Store focus trap cleanup function
+    wrongOverlayElement.dataset.removeFocusTrap = 'true';
 }
 
 // Continue from wrong answer
 continueButtonElement.addEventListener('click', () => {
     synth.cancel(); // Stop any ongoing speech
     wrongOverlayElement.classList.remove('active');
+    wrongOverlayElement.setAttribute('aria-hidden', 'true');
     setTimeout(() => {
         getNewQuestion();
     }, 500);
@@ -385,25 +557,43 @@ function showUnitComplete() {
     unitCompleteMessageElement.textContent = message;
 
     unitCompleteOverlayElement.classList.add('active');
+    unitCompleteOverlayElement.setAttribute('aria-hidden', 'false');
     playLevelUpSound();
     createMassiveConfetti();
     createStarBurst();
 
+    // Announce to screen reader
+    announceToScreenReader(`Unit complete! Your score is ${score} points. ${message}`);
+
     // Mascot announces completion (emojis removed automatically)
     speakText(`Unit complete! Your score is ${score} points. ${message}`);
+
+    // Trap focus in modal and focus on button
+    const removeFocusTrap = trapFocus(unitCompleteOverlayElement);
+    setTimeout(() => chooseAnotherUnitButtonElement.focus(), 100);
 }
 
 // Choose another unit
 chooseAnotherUnitButtonElement.addEventListener('click', () => {
     synth.cancel(); // Stop any ongoing speech
     unitCompleteOverlayElement.classList.remove('active');
+    unitCompleteOverlayElement.setAttribute('aria-hidden', 'true');
     gameContainerElement.style.display = 'none';
     unitSelectionElement.style.display = 'flex';
+
+    // Show the units section (not grade selection)
+    gradeSelectionElement.style.display = 'none';
+    unitsSectionElement.style.display = 'block';
+
+    announceToScreenReader('Returned to unit selection. Choose another unit to continue learning.');
 
     // Reset for new unit
     currentWordIndex = 0;
     wrongWords = [];
     questionsAnswered = 0;
+
+    // Rebuild unit buttons to ensure fresh state
+    setupUnitButtons();
 });
 
 // Check if answer is correct
