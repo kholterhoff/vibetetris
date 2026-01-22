@@ -373,10 +373,8 @@ function selectUnit(unitNumber) {
     // Display unit info
     unitTitleElement.textContent = `Unit ${selectedUnit.unitNumber}: ${selectedUnit.unitName}`;
 
-    // Speak welcome message (only text, no emojis)
-    const welcomeMessage = `Hi! I'm ${selectedMascot.name}! Let's learn the words in ${selectedUnit.unitName}!`;
+    // Show visual message only (no speech)
     speechBubbleElement.textContent = `Let's learn ${selectedUnit.unitName}!`;
-    speakText(welcomeMessage);
 
     announceToScreenReader(`Starting ${selectedUnit.unitName}. Get ready to learn!`);
 
@@ -446,6 +444,9 @@ function getNewQuestion() {
 
 // Display the current question
 function displayQuestion() {
+    // Cancel any ongoing speech first to prevent overlap
+    synth.cancel();
+
     currentWordElement.textContent = currentQuestion.word;
     exampleSentenceElement.textContent = `"${currentQuestion.sentence}"`;
     answersGridElement.innerHTML = '';
@@ -485,7 +486,11 @@ function displayQuestion() {
 
 // Speaker button to replay audio
 speakerButtonElement.addEventListener('click', () => {
-    speakText(`${currentQuestion.word}. ${currentQuestion.sentence}`);
+    // Cancel any ongoing speech before replaying
+    synth.cancel();
+    setTimeout(() => {
+        speakText(`${currentQuestion.word}. ${currentQuestion.sentence}`);
+    }, 100);
 });
 
 // Show celebration overlay (NO audio for celebration text)
@@ -510,6 +515,9 @@ function showCelebration(message) {
 
 // Show wrong answer overlay
 function showWrongAnswer() {
+    // Cancel any ongoing speech first to prevent overlap
+    synth.cancel();
+
     revealAnswerElement.textContent = currentQuestion.correctAnswer;
     revealWordElement.textContent = currentQuestion.word;
     revealDefinitionElement.textContent = currentQuestion.correctAnswer;
@@ -562,11 +570,8 @@ function showUnitComplete() {
     createMassiveConfetti();
     createStarBurst();
 
-    // Announce to screen reader
+    // Announce to screen reader only (no speech)
     announceToScreenReader(`Unit complete! Your score is ${score} points. ${message}`);
-
-    // Mascot announces completion (emojis removed automatically)
-    speakText(`Unit complete! Your score is ${score} points. ${message}`);
 
     // Trap focus in modal and focus on button
     const removeFocusTrap = trapFocus(unitCompleteOverlayElement);
